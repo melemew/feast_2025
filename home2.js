@@ -210,19 +210,12 @@ function showLombaDetail(m) {
 
 setInterval(() => {
     const body = document.querySelector('html body').clientWidth;
+    const tambah = body + 140
     if (body >= 320 && body <= 440) {
-        const tambah1 = body + 140
-        document.body.style.width = `${tambah1}px`;
+        document.body.style.width = `${tambah}px`;
     }
 
-    if (body >= 768 && body <= 1024) {
-        const tambah2 = body + 400
-        document.body.style.width = `${tambah2}px`;
+    if (body >= 768 && body <= 1023) {
+        document.body.style.width = `${tambah}px`;
     }
-}, 100)
-
-setTimeout(() => {
-    const body = document.querySelector('html body').clientWidth;
-    const main = document.querySelector('html main');
-    main.style.width = `${body + 120}px`
-},10)
+}, 1000)

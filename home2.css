@@ -75,23 +75,23 @@
 
     .satu {
         width: 200px;
-        right: -130px;
+        right: -15%;
         top: 250px;
-        animation: muter1 23s infinite ease;
-        -webkit-animation: muter1 23s infinite ease;
+        animation: muter1 23s infinite linear;
+        -webkit-animation: muter1 23s infinite linear;
     }
 
     .dua {
         width: 600px;
         left: -35%;
         top: -300px;
-        animation: muter2 23s infinite ease;
-        -webkit-animation: muter2 23s infinite ease;
+        animation: muter2 23s infinite linear;
+        -webkit-animation: muter2 23s infinite linear;
     }
 
     .tiga {
-        animation: muter1 23s infinite ease;
-        -webkit-animation: muter1 23s infinite ease;
+        animation: muter1 23s infinite linear;
+        -webkit-animation: muter1 23s infinite linear;
     }
 
     .empat {
@@ -104,7 +104,7 @@
 
     .lima {
         width: 570px;
-        right: -280px;
+        right: -35%;
         top: -250px;
         animation: muter2 25s infinite linear;
         -webkit-animation: muter2 25s infinite linear;
@@ -180,9 +180,10 @@
     }
 
     .logo_feast2025 {
-        width: 500px;
+        width: 400px;
         position: absolute;
         top: 10px;
+        /* margin: auto; */
         z-index: 0;
         animation: logo_feast 2s;
         animation-timeline: reload();
@@ -207,6 +208,7 @@
         font-family: indonesia;
         color: rgb(212, 201, 201);
         font-size: 84px;
+        margin: auto;
         margin-top: 160px;
         animation: home_h2 2s;
         animation-timeline: reload();
@@ -665,7 +667,7 @@
 }
 
     .lomba {
-        width: 260px;
+        width: 160px;
         border-radius: 40px;
     }
 
