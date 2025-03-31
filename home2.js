@@ -218,4 +218,4 @@ setInterval(() => {
     if (body >= 768 && body <= 1023) {
         document.body.style.width = `${tambah}px`;
     }
-}, 1000)
+}, 100)
