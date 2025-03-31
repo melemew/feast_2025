@@ -1,6 +1,6 @@
 @media screen and (max-width:767px) {
     body {
-        width: 500px;
+        width: 800px;
         height: fit-content;
         box-sizing: border-box;
         overflow-x: hidden;
