@@ -1,4 +1,4 @@
-if (window.innerWidth >= 220 && window.innerWidth <= 428) {
+if (window.innerWidth >= 0 && window.innerWidth <= 428) {
     document.querySelector('.navbar-container').remove();
 }
 
