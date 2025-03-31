@@ -1,7 +1,12 @@
 @media screen and (max-width:767px) {
+
+    /* body {
+        width: 500px;
+    } */
+
     /* bagian container navbar */
         header {
-            display: flex;
+            display: none;
             justify-content: center;
         }
     
@@ -32,6 +37,7 @@
             text-align: center;
             margin: auto;
             gap: 55px;
+            font-size: sma;
         }
     
         .navbar-container div .left {
@@ -61,7 +67,7 @@
     
         .navbar-container div a img {
             position: absolute;
-            width: 250px;
+            width: 150px;
         }
     
     
@@ -75,8 +81,8 @@
     
         .satu {
             width: 120px;
-            right: 23px;
-            top: 470px;
+            right: -90px;
+            top: 485px;
             animation: muter2 23s infinite ease;
             -webkit-animation: muter2 23s infinite ease;
 }
@@ -97,16 +103,17 @@
     
         .empat {
             width: 305px;
-            left: -35%;
+            left: -45%;
             top: 420px;
             animation: muter1 25s infinite linear;
 }
     
         .lima {
             width: 200px;
-            right: -100px;
+            right: -220px;
             top: 120px;
             animation: muter2 25s infinite linear;
+            -webkit-animation: muter2 25s infinite linear;
 }
     
     
@@ -149,7 +156,6 @@
     
         /* bagian main */
         main {
-            width: 100%;
             height: 100%;
             overflow: hidden;
             box-sizing: border-box;

@@ -9,8 +9,6 @@
 }
 
 body {
-    width: 100%;
-    height: fit-content;
     box-sizing: border-box;
     overflow-x: hidden;
 }
