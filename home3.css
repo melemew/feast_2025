@@ -1,4 +1,4 @@
-@media screen and (max-width:767px) {
+@media screen and (min-width: 360px ) and (max-width:767px) {
     /* bagian container navbar */
         header {
             display: flex;
