@@ -1,7 +1,3 @@
-if (window.innerWidth >= 0 && window.innerWidth <= 428) {
-    document.querySelector('.navbar-container').remove();
-}
-
 const gambarSd = [
     {
         title: 'Puisi',
@@ -207,9 +203,15 @@ function showLombaDetail(m) {
                                     <li class="list-group-item"><strong>Writer : </strong>${m.Writer}</li>
                                     <li class="list-group-item"><strong>Plot : </strong><br>${m.Plot}</li>
                                 </ul>
-                            </div>  
+                            </div>
                         </div>
                     </div>`
 }
 
-
+setInterval(() => {
+    const body = document.querySelector('html body').clientWidth;
+    const tambah = body + 140
+    if (body >= 320 && body <= 428) {
+        document.body.style.width = `${tambah}px`;
+    }
+}, 1000)

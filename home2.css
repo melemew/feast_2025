@@ -1,16 +1,4 @@
 @media screen and (min-width:768px) and (max-width: 1023px) {
-
-
-    body {
-        width: 1480px;
-        height: fit-content;
-        box-sizing: border-box;
-        overflow-x: hidden; 
-        margin: 0;
-        padding: 0;
-    }
-
-
     /* bagian container navbar */
     header {
         display: flex;
