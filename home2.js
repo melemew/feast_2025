@@ -157,7 +157,7 @@ function showCards(m) {
                                 <h5 class="card-title">${m.title}</h5>
                                 <h6 class="card-subtitle mb-2 text-muted">${m.keterangan}</h6>
                                 <a href="#" class="btn1 btn btn-primary modal-detail-button" data-bs-toggle="modal">Daftar</a>
-                                <a href="#" class="${m.file} btn2 btn btn-primary modal-detail-button" data-bs-toggle="modal" data-bs-target="#movieDetailModal" data-imdbid="${m.class}">Show Detail</a>
+                                <a href="#" class="btn2 btn btn-primary modal-detail-button" data-bs-toggle="modal">Daftar</a>
                             </div>
                         </div>
                     </div>`;    
@@ -166,56 +166,63 @@ function showCards(m) {
 
 
 // detail card
-document.addEventListener('click', async function(e) {
-    if(e.target.classList.contains('gambarSd')) {
-        const index = e.target.dataset.imdbid;            
-        cetakDetail(gambarSd, index)
-    }
-    if(e.target.classList.contains('gambarSmp')) {
-        const index = e.target.dataset.imdbid;            
-        cetakDetail(gambarSmp, index)
-    }
-    if(e.target.classList.contains('gambarSma')) {
-        const index = e.target.dataset.imdbid;            
-        cetakDetail(gambarSma, index)
-    }
-})
+// document.addEventListener('click', async function(e) {
+//     if(e.target.classList.contains('gambarSd')) {
+//         const index = e.target.dataset.imdbid;            
+//         cetakDetail(gambarSd, index)
+//     }
+//     if(e.target.classList.contains('gambarSmp')) {
+//         const index = e.target.dataset.imdbid;            
+//         cetakDetail(gambarSmp, index)
+//     }
+//     if(e.target.classList.contains('gambarSma')) {
+//         const index = e.target.dataset.imdbid;            
+//         cetakDetail(gambarSma, index)
+//     }
+// })
 
-function cetakDetail(file, index) {
-    console.log(file + index);
+// function cetakDetail(file, index) {
+//     console.log(file + index);
     
-    const lombaDetail = showLombaDetail(file[index]);
-    const modalBody = document.querySelector('.modal-body');
-    modalBody.innerHTML = lombaDetail;
-}
+//     const lombaDetail = showLombaDetail(file[index]);
+//     const modalBody = document.querySelector('.modal-body');
+//     modalBody.innerHTML = lombaDetail;
+// }
 
-function showLombaDetail(m) {
-    return `<div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-3">
-                                <img src="${m.img}" class="img-fluid">
-                            </div>
-                            <div class="col-md">
-                                <ul class="list-group">
-                                    <li class="list-group-item"><h4>${m.title} (${m.keterangan})</h4></li>
-                                    <li class="list-group-item"><strong>Direstor : </strong>${m.Director}</li>
-                                    <li class="list-group-item"><strong>Actress : </strong>${m.Actors}</li>
-                                    <li class="list-group-item"><strong>Writer : </strong>${m.Writer}</li>
-                                    <li class="list-group-item"><strong>Plot : </strong><br>${m.Plot}</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>`
-}
+// function showLombaDetail(m) {
+//     return `<div class="container">
+//                         <div class="row">
+//                             <div class="col-md-3">
+//                                 <img src="${m.img}" class="img-fluid">
+//                             </div>
+//                             <div class="col-md">
+//                                 <ul class="list-group">
+//                                     <li class="list-group-item"><h4>${m.title} (${m.keterangan})</h4></li>
+//                                     <li class="list-group-item"><strong>Direstor : </strong>${m.Director}</li>
+//                                     <li class="list-group-item"><strong>Actress : </strong>${m.Actors}</li>
+//                                     <li class="list-group-item"><strong>Writer : </strong>${m.Writer}</li>
+//                                     <li class="list-group-item"><strong>Plot : </strong><br>${m.Plot}</li>
+//                                 </ul>
+//                             </div>
+//                         </div>
+//                     </div>`
+// }
 
-setInterval(() => {
+setTimeout(() => {
     const body = document.querySelector('html body').clientWidth;
-    const tambah = body + 140
     if (body >= 320 && body <= 440) {
+        const tambah = body + 140
         document.body.style.width = `${tambah}px`;
     }
 
     if (body >= 768 && body <= 1023) {
-        document.body.style.width = `${tambah}px`;
+        const tambah2 = body + 340;
+        document.body.style.width = `${tambah2}px`;
     }
-}, 100)
+
+    // if (body >= 1024) {
+    //     const tambah3 = body + 40;
+    //     document.body.style.width = `${tambah3}px`;
+    // }
+
+}, 10)

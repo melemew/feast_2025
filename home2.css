@@ -75,8 +75,8 @@
 
     .satu {
         width: 200px;
-        right: -15%;
-        top: 250px;
+        right: -35%;
+        top: 150px;
         animation: muter1 23s infinite linear;
         -webkit-animation: muter1 23s infinite linear;
     }
@@ -103,9 +103,10 @@
     }
 
     .lima {
-        width: 570px;
-        right: -35%;
-        top: -250px;
+        display: none;
+        width: 200px;
+        right: -35px;
+        top: -50px;
         animation: muter2 25s infinite linear;
         -webkit-animation: muter2 25s infinite linear;
     }
@@ -182,7 +183,7 @@
     .logo_feast2025 {
         width: 400px;
         position: absolute;
-        top: 10px;
+        top: 70px;
         /* margin: auto; */
         z-index: 0;
         animation: logo_feast 2s;
@@ -653,7 +654,7 @@
 
     .competition .cnt-comp {
         box-sizing: border-box;
-        width: 1200px;
+        width: 1000px;
         height: fit-content;
         display: flex;
         flex-wrap: wrap;

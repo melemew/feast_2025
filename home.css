@@ -1,4 +1,4 @@
-   :root {
+:root {
     --darkcolor:#181145;
 }
 
@@ -55,11 +55,11 @@ body {
         }
     
         .navbar-container div .left {
-            margin-right: 170px;
+            margin-right: 150px;
         }
     
         .navbar-container div .right {
-            margin-left: 170px;
+            margin-left: 150px;
         }
     
         .navbar-container div ul a:hover {
@@ -81,7 +81,7 @@ body {
     
         .navbar-container div a img {
             position: absolute;
-            width: 250px;
+            width: 160px;
         }
     
     
@@ -201,7 +201,7 @@ body {
         .logo_feast2025 {
             width: 500px;
             position: absolute;
-            top: 10px;
+            top: 20px;
             z-index: 0;
             animation: logo_feast 2s;
             animation-timeline: reload();
