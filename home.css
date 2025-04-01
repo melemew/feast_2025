@@ -18,7 +18,7 @@ body {
     src: url(font/boutiques_of_merauke/Boutiques\ of\ Merauke.otf);
 }
 
-@media screen and (min-width : 1024px) and (max-width : 1199px) {
+@media screen and (min-width : 1024px) {
     /* bagian container navbar */
         header {
             display: flex;
