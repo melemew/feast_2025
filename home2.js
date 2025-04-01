@@ -220,9 +220,9 @@ setTimeout(() => {
         document.body.style.width = `${tambah2}px`;
     }
 
-    // if (body >= 1024) {
-    //     const tambah3 = body + 40;
-    //     document.body.style.width = `${tambah3}px`;
-    // }
+    if (body >= 1024) {
+        const tambah3 = body + 450;
+        document.body.style.width = `${tambah3}px`;
+    }
 
 }, 10)
