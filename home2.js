@@ -210,7 +210,7 @@ function showCards(m) {
 
 setTimeout(() => {
     const body = document.querySelector('html body').clientWidth;
-    if (body >= 320 && body <= 440) {
+    if (body >= 320 && body <= 767) {
         const tambah = body + 140
         document.body.style.width = `${tambah}px`;
     }
