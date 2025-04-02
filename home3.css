@@ -82,21 +82,21 @@
             width: 120px;
             right: 23px;
             top: 470px;
-            animation: muter2 23s infinite ease;
-            -webkit-animation: muter2 23s infinite ease;
+            animation: muter2 23s infinite linear;
+            -webkit-animation: muter2 23s infinite linear;
 }
     
         .dua {
             width: 280px;
             left: -40%;
             top: -90px;
-            animation: muter2 23s infinite ease;
-            -webkit-animation: muter2 23s infinite ease;
+            animation: muter2 23s infinite linear;
+            -webkit-animation: muter2 23s infinite linear;
         }
     
         .tiga {
-            animation: muter1 23s infinite ease;
-            -webkit-animation: muter1 23s infinite ease;
+            animation: muter1 23s infinite linear;
+            -webkit-animation: muter1 23s infinite linear;
             width: 160px;
         }
     
@@ -623,135 +623,89 @@
             -o-transition: all 0.5s ease;
         }
     
+
+
+
+
+        /* bagian comp2 */
+main section.competition {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    padding: 30px 0;  
+    border-bottom: 23px solid var(--darkcolor);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-image: url(img/competition_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.competition h1 strong {
+    color: #ffd607;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.competition h1 {
+    transform: translateX(-100px);
+    transition: all 2s ease;
+    opacity: 0.5;
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.3) 5px 5px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+
+.competition .pilih_gender {
+    box-sizing: border-box;
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    margin: 10px;
+    margin-top: 50px;
+}
+
+.pilih_gender {
+    transform: translateX(100px);
+    transition: all 2s ease;
+    opacity: 0.5;
+}
+
+.pilih_gender img {
+    width: 120px;
+}
+
+.pilih_gender img:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+
+.pilih_gender h6 {
+    margin-top: 20px;
+}
     
     
     
     
-        /* bagian competition */
-        main section.competition {
-            width: 100%;
-            height: fit-content;
-            padding: 50px 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            background-color: lightskyblue;
-            overflow: hidden;
-    
-        }
-    
-        .competition h1 {
-            transform: translateX(-100px);
-            transition: all 2s ease;
-            opacity: 0;
-        }
-    
-        .competition h1 strong {
-            color: #CEAA00;
-            font-size: 40px;
-            font-weight: bolder;
-        }
-    
-        .competition .cnt-comp {
-            box-sizing: border-box;
-            width: 490px;
-            height: fit-content;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 80px;
-            margin: 10px;
-            margin-top: 50px;
-            transform: translateY(100px);
-            transition: all 2s ease;
-            opacity: 0.5;
-        }
-    
-        .lomba {
-            width: 180px;
-            border-radius: 40px;
-        }
-    
-        .card {
-            box-shadow: rgba(0, 0, 0, 0.3) 5px 5px;
-            transition: all 0.5s ease;
-            cursor: pointer;
-        }
-    
-        .card:hover {
-            box-shadow: rgba(0, 0, 0, 0.3) 10px 10px;
-            transform: scale(1.05);
-            transition: all 0.5s ease;
-        }
-    
-        .card a {
-            width: 100%;
-            border: var(--darkcolor) 1px solid;
-        }
-    
-        .card .btn2 {
-            margin-top: 10px;
-            background-color: rgb(70, 176, 242);
-        }
-    
-        .card .btn1,
-        .card .btn2 {
-            font-weight: bold;
-        }
-    
-        .btn-grades {
-            transform: translateX(100px);
-            transition: all 2s ease;
-            opacity: 0.5;
-        }
-    
-        .grade {
-            width: 75px;
-            text-decoration: none;
-            background-color: white;
-            font-size: 15px;
-            margin: 0 30px;
-            font-weight: bold;
-            transition: all .5s ease;
-            box-sizing: border-box;
-            padding: 2px 0px;
-            color: black;
-            box-shadow: white 0 0 20px 0;
-            margin-top: 20px;
-            border: black 3px solid;
-            -webkit-transition: all .5s ease;
-            -moz-transition: all .5s ease;
-            -ms-transition: all .5s ease;
-            -o-transition: all .5s ease;
-        }
-    
-        .grade:hover {
-            transform: scale(1.1);
-            transition: all .5s ease;
-            background-color: #CEAA00;
-            box-shadow: #CEAA00 0 0 20px 0;
-            color: black;
-        }
-    
-        .kontol {
-            transform: scale(1.1);
-            background-color: #CEAA00;
-            box-shadow: #CEAA00 0 0 20px 0;
-            color: black;
-        }
-    
-        .lomba .btn1:hover {
-            background-color: #CEAA00;
-            transition: all .5s ease;
-        }
-    
-        .lomba .btn2:hover {
-            background-color: #CEAA00;
-            transition: all .5s ease;
-        }
-    
-    
+        
         /* bagian animasi */
         .relative {
             position: relative;

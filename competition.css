@@ -1,0 +1,394 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.opacity {
+    opacity: 0;
+}
+
+@media screen and (min-width : 1024px) {    
+    .back {
+        position: absolute;
+        left: 10px;
+        top: 0;
+    }
+
+    .back img {
+        width: 80px;
+    }
+
+    /* bagian competition */
+    section.competition {
+        width: 100%;
+        /* height: 100%; */
+        padding: 66px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: lightskyblue;
+        overflow: hidden;   
+        position: relative;
+    }
+
+    .competition h1 strong {
+        color: #CEAA00;
+        font-size: 40px;
+        font-weight: bolder;
+    }
+
+    .competition .cnt-comp {
+        box-sizing: border-box;
+        width: 1200px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 80px;
+        margin: 10px;
+        margin-top: 50px;
+    }
+
+    .lomba {
+        width: 260px;
+        border-radius: 40px;
+    }
+
+    .card {
+        box-shadow: rgba(0, 0, 0, 0.3) 5px 5px;
+        transition: all 0.5s ease;
+        cursor: pointer;
+    }
+
+    .card:hover {
+        box-shadow: rgba(0, 0, 0, 0.3) 10px 10px;
+        transform: scale(1.05);
+        transition: all 0.5s ease;
+    }
+
+    .card a {
+        width: 100%;
+        border: var(--darkcolor) 1px solid;
+    }
+
+    .card .btn2 {
+        margin-top: 10px;
+        background-color: rgb(70, 176, 242);
+    }
+
+    .card .btn1, .card .btn2 {
+        font-weight: bold;
+    }
+
+    .grade {
+        width: 75px;
+        text-decoration:none ;
+        background-color: white;
+        font-size: 15px;
+        margin: 0 40px;
+        font-weight: bold;
+        transition: all .5s ease;
+        box-sizing: border-box;
+        padding: 2px 0px;
+        color: black;
+        box-shadow: white 0 0 20px 0;
+        margin-top: 20px;
+        border: black 3px solid;
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+    }
+
+    .grade:hover {
+        transform: scale(1.1);
+        transition: all .5s ease;
+        background-color: #CEAA00;
+        box-shadow: #CEAA00 0 0 20px 0;
+        color: black;
+    }
+
+    .kontol {
+        transform: scale(1.1);
+        background-color: #CEAA00;
+        box-shadow: #CEAA00 0 0 20px 0;
+        color: black;
+    }
+
+    .lomba .btn1:hover{
+        background-color: #CEAA00;
+        transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+    }
+
+    .lomba .btn2:hover{
+        background-color:  #CEAA00;
+        transition: all 0.5s ease;
+    }
+}
+
+
+
+@media screen and (min-width:768px) and (max-width: 1023px) {
+    /* bagian competition */
+    html, body {
+            width: 100%;
+            height: 100%;
+        }
+    section.competition {
+        width: 100%;
+        /* height: 100%; */
+        padding: 90px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: lightskyblue;
+        overflow: hidden;
+
+    }
+
+    .back {
+            position: absolute;
+            left: 20px;
+            top: 0;
+        }
+    
+    .back img {
+            width: 80px;
+        }
+    
+    .competition h1 strong {
+        color: #CEAA00;
+        font-size: 40px;
+        font-weight: bolder;
+    }
+
+    .competition .cnt-comp {
+        box-sizing: border-box;
+        width: 800px;
+        height: de;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 80px;
+        margin: 10px;
+        margin-top: 50px;
+    }
+
+    .lomba {
+        width: 160px;
+        border-radius: 40px;
+    }
+
+    .card {
+        box-shadow: rgba(0, 0, 0, 0.3) 5px 5px;
+        transition: all 0.5s ease;
+        cursor: pointer;
+    }
+
+    .card:hover {
+        box-shadow: rgba(0, 0, 0, 0.3) 10px 10px;
+        transform: scale(1.05);
+        transition: all 0.5s ease;
+    }
+
+    .card a {
+        width: 100%;
+        border: var(--darkcolor) 1px solid;
+    }
+
+    .card .btn2 {
+        margin-top: 10px;
+        background-color: rgb(70, 176, 242);
+    }
+
+    .card .btn1, .card .btn2 {
+        font-weight: bold;
+    }
+
+    .grade {
+        width: 65px;
+        text-decoration:none ;
+        background-color: white;
+        font-size: 12px;
+        margin: 0 40px;
+        font-weight: bold;
+        transition: all .5s ease;
+        box-sizing: border-box;
+        padding: 2px 0px;
+        color: black;
+        box-shadow: white 0 0 20px 0;
+        margin-top: 20px;
+        border: black 3px solid;
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+    }
+
+    .grade:hover {
+        transform: scale(1.1);
+        transition: all .5s ease;
+        background-color: #CEAA00;
+        box-shadow: #CEAA00 0 0 20px 0;
+        color: black;
+    }
+
+    .kontol {
+        transform: scale(1.1);
+        background-color: #CEAA00;
+        box-shadow: #CEAA00 0 0 20px 0;
+        color: black;
+    }
+
+    .lomba .btn1:hover{
+        background-color: #CEAA00;
+        transition: all .5s ease;
+    }
+
+    .lomba .btn2:hover{
+        background-color:  #CEAA00;
+        transition: all .5s ease;
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+    }
+}
+
+
+
+@media screen and (max-width:767px) {
+    /* bagian competition */
+    section.competition {
+        width: 100%;
+        height: fit-content;
+        padding: 103px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: lightskyblue;
+        overflow: hidden;
+
+    }
+
+    .back {
+            position: absolute;
+            left: 20px;
+            top: 100px;
+        }
+    
+    .back img {
+            width: 50px;
+        }
+
+    .competition h1 strong {
+        color: #CEAA00;
+        font-size: 27px;
+        font-weight: bolder;
+    }
+
+    .competition .cnt-comp {
+        box-sizing: border-box;
+        width: 390px;
+        height: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+        margin: 10px;
+        margin-top: 50px;
+    }
+
+    .lomba {
+        width: 140px;
+        border-radius: 40px;
+    }
+
+    .card {
+        box-shadow: rgba(0, 0, 0, 0.3) 5px 5px;
+        transition: all 0.5s ease;
+        cursor: pointer;
+    }
+
+    .card:hover {
+        box-shadow: rgba(0, 0, 0, 0.3) 10px 10px;
+        transform: scale(1.05);
+        transition: all 0.5s ease;
+    }
+
+    .card h5 {
+        font-size: 17px;
+    }
+
+    .card h6 {
+        font-size: 12px;
+    }
+
+    .card a {
+        width: 100%;
+        border: var(--darkcolor) 1px solid;
+    }
+
+    .card .btn2 {
+        margin-top: 10px;
+        background-color: rgb(70, 176, 242);
+    }
+
+    .card .btn1,
+    .card .btn2 {
+        font-weight: bold;
+        font-size: 13px;
+    }
+
+    .grade {
+        width: 50px;
+        text-decoration: none;
+        background-color: white;
+        font-size: 10px;
+        margin: 0 20px;
+        font-weight: bold;
+        transition: all .5s ease;
+        box-sizing: border-box;
+        padding: 2px 0px;
+        color: black;
+        box-shadow: white 0 0 20px 0;
+        margin-top: 20px;
+        border: black 3px solid;
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+    }
+
+    .grade:hover {
+        transform: scale(1.1);
+        transition: all .5s ease;
+        background-color: #CEAA00;
+        box-shadow: #CEAA00 0 0 20px 0;
+        color: black;
+    }
+
+    .kontol {
+        transform: scale(1.1);
+        background-color: #CEAA00;
+        box-shadow: #CEAA00 0 0 20px 0;
+        color: black;
+    }
+
+    .lomba .btn1:hover {
+        background-color: #CEAA00;
+        transition: all .5s ease;
+    }
+
+    .lomba .btn2:hover {
+        background-color: #CEAA00;
+        transition: all .5s ease;
+    }
+}
