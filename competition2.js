@@ -104,17 +104,93 @@ const putra = {
 }
 
 const putri = {
-    gambarSd: [],
-    gambarSmp: [{
-        title: 'Ketambahan Solo Vocal',
-        img: 'img_smp/1.jpg',
-        rules: '',
-        keterangan: 'Putri',
+    gambarSd: [
+        {
+        title: "Baca Puisi",
+        img: "img_sd/1.jpg",
+        rules: "",
+        keterangan: "Putri",
         class: 5,
-        file: 'gambarSmp'
-    }],
-    gambarSma: []
-}
+        file: "gambarSd",
+        },
+        {
+        title: "Pidato",
+        img: "img_sd/2.jpg",
+        rules: "",
+        keterangan: "Putri",
+        class: 5,
+        file: "gambarSd",
+        },
+        {
+        title: "MHQ",
+        img: "img_sd/3.jpg",
+        rules: "",
+        keterangan: "Putri",
+        class: 5,
+        file: "gambarSd",
+        },
+    ],
+    gambarSmp: [
+        {
+        title: "Ketambahan Solo Vocal",
+        img: "img_smp/1.jpg",
+        rules: "",
+        keterangan: "Putri",
+        class: 5,
+        file: "gambarSmp",
+        },
+        {
+        title: "Story Telling",
+        img: "img_smp/2.jpg",
+        rules: "",
+        keterangan: "Putri",
+        class: 5,
+        file: "gambarSmp",
+        },
+        {
+        title: "CC MIPA",
+        img: "img_smp/3.jpg",
+        rules: "",
+        keterangan: "Putri",
+        class: 5,
+        file: "gambarSmp",
+        },
+        {
+        title: "MHQ",
+        img: "img_smp/4.png",
+        rules: "",
+        keterangan: "Putri",
+        class: 5,
+        file: "gambarSmp",
+        },
+    ],
+    gambarSma: [
+        {
+        title: "Kaligrafi",
+        img: "img_sma/1.jpg",
+        rules: "",
+        keterangan: "Putri",
+        class: 5,
+        file: "gambarSma",
+        },
+        {
+        title: "SMS",
+        img: "img_sma/2.jpg",
+        rules: "",
+        keterangan: "Putri",
+        class: 5,
+        file: "gambarSma",
+        },
+        {
+        title: "MHQ",
+        img: "img_sma/3.jpg",
+        rules: "",
+        keterangan: "Putri",
+        class: 5,
+        file: "gambarSma",
+        }
+    ],
+};
 
 
 const section = document.querySelector('.competition');
