@@ -19,6 +19,11 @@
         width: 80px;
     }
 
+    .back:hover img {
+        transform: scale(1.1);
+        transition: all 0.5 ease;
+    }
+
     /* bagian competition */
     section.competition {
         width: 100%;
@@ -153,14 +158,19 @@
     }
 
     .back {
-            position: absolute;
-            left: 20px;
-            top: 0;
-        }
+        position: absolute;
+        left: 20px;
+        top: 0;
+    }
     
     .back img {
-            width: 80px;
-        }
+        width: 80px;
+    }
+
+    .back:hover img {
+        transform: scale(1.1);
+        transition: all 0.5 ease;
+    }
     
     .competition h1 strong {
         color: #CEAA00;
@@ -279,14 +289,19 @@
     }
 
     .back {
-            position: absolute;
-            left: 20px;
-            top: 100px;
-        }
+        position: absolute;
+        left: 20px;
+        top: 100px;
+    }
     
     .back img {
-            width: 50px;
-        }
+        width: 50px;
+    }
+
+    .back:hover img {
+        transform: scale(1.1);
+        transition: all 0.5 ease;
+    }
 
     .competition h1 strong {
         color: #CEAA00;
@@ -390,5 +405,59 @@
     .lomba .btn2:hover {
         background-color: #CEAA00;
         transition: all .5s ease;
+    }
+}
+
+
+
+/* bagian animasi */
+.competition h1 {
+    animation: _h1 2s ease;
+}
+
+.competition .btn-grades {
+    animation: _btn_grades 2s ease;
+}
+
+.cnt-comp .lomba {
+    animation: _card 2s ease;
+}
+
+@keyframes _h1 {
+    0% {
+        transform: translateX(-100px);
+        transition: all 1.5s ease;
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateX(0px);
+        transition: all 1.5s ease;
+        opacity: 1;
+    }
+}
+
+@keyframes _btn_grades {
+    0% {
+        transform: translateX(100px);
+        transition: all 1.5s ease;
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateX(0px);
+        transition: all 1.5s ease;
+        opacity: 1;
+    }
+}
+
+@keyframes _card {
+    0% {
+        transform: translateY(110px);
+        transition: all 1.5s ease;
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(0px);
+        transition: all 1.5s ease;
+        opacity: 1;
     }
 }
