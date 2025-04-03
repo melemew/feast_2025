@@ -353,6 +353,10 @@
             color: gold;
             background-color: var(--darkcolor);
         }
+
+        .about .explain p span.penting2 {
+            color: gold;
+        }
     
         .about .explain div.p {
             transform: translateY(190px);
