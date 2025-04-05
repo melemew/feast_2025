@@ -30,7 +30,7 @@ setTimeout(() => {
     
 
     if (body >= 1024) {
-        const tambah3 = body + 50;
+        const tambah3 = body + 10;
         document.body.style.width = `${tambah3}px`;
     }
 
