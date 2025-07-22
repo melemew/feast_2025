@@ -4,6 +4,33 @@
         width: 500px;
     } */
 
+
+    h2#hitungMundur ul {
+    list-style: none;
+        display: flex;
+        justify-content: center;
+        /* gap: 5px; */
+        color: white;
+        font-size: 15px;
+    }
+
+    h2#hitungMundur li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white
+    }
+
+    h2#hitungMundur li span {
+        color: gold;
+    }
+
+
+
+
+
+
     /* bagian container navbar */
         header {
             display: none;
