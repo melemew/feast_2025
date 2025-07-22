@@ -2,6 +2,26 @@
     --darkcolor:#181145;
 }
 
+h2#hitungMundur ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+}
+
+h2#hitungMundur li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(212, 201, 201);
+}
+
+h2#hitungMundur li span {
+    color: gold;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -225,8 +245,9 @@ body {
         main .home div h2 {
             font-family: indonesia;
             color: rgb(212, 201, 201);
+            padding: 0;
             font-size: 84px;
-            margin-top: 160px;
+            margin-top: 260px;
             animation: home_h2 2s;
             animation-timeline: reload();
             -webkit-animation: home_h2 2s;

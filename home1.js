@@ -40,3 +40,36 @@ setInterval(() => {
     comingSoon.classList.remove('activeSoon');
     clearInterval();
 },4500)
+
+
+
+
+
+
+
+// hitung mundur acara feast
+const hitungMundur = setInterval(() => {
+
+        const ultah = new Date(`10 october 2025 00:00:00`).getTime();
+        const today = new Date().getTime();
+
+        const selisih = ultah - today;
+
+        const hari = Math.floor(selisih / (1000 * 60 * 60 * 24));
+		const jam = Math.floor(selisih % (1000 * 60 * 60 * 24) / (1000 * 60 * 60));
+		const menit = Math.floor(selisih % (1000 * 60 * 60) / (1000 * 60)); 
+		const detik = Math.floor(selisih % (1000 * 60) / 1000);  
+
+        const teks = document.querySelector('#hitungMundur ul');
+		// teks.innerHTML = hari + '  :  ' + jam + '  :  ' + menit + '  :  ' + detik
+        teks.innerHTML = `<li><span>${hari}</span> Days</li> - <li><span>${jam}</span> Hours</li> - <li><span>${menit}</span> Minutes</li> - <li><span>${detik}</span> Seconds</li>`
+
+		if (selisih < 0) {
+			clearInterval(hitungMundur);
+            surprise(nama)
+            setTimeout(() => {
+                hadiah();
+            },3000)
+		}
+
+    },1000)
