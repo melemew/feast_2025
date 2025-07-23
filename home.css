@@ -317,15 +317,10 @@ body {
             height: 500px;
             padding: 20px;
             box-sizing: border-box;
-            border-radius: 10px;
             display: grid;
             grid-template-areas: "explain video";
             grid-template-columns: 1fr 1fr;
             grid-gap: 10px;
-            -webkit-border-radius: 10px;
-            -moz-border-radius: 10px;
-            -ms-border-radius: 10px;
-            -o-border-radius: 10px;
             position: absolute;
             background: rgba(0, 0, 0, 0.3);
             backdrop-filter: saturate(100%) blur(6px);
@@ -348,17 +343,17 @@ body {
     
         .about .explain .h1 {
             transform: translateX(-90px);
-            transition: all 1.5s ease;
+            transition: all 2s ease;
             opacity: 0.5;
             -webkit-transform: translateX(-90px);
             -moz-transform: translateX(-90px);
             -ms-transform: translateX(-90px);
             -o-transform: translateX(-90px);
-            -webkit-transition: all 1.5s ease;
-            -moz-transition: all 1.5s ease;
-            -ms-transition: all 1.5s ease;
-            -o-transition: all 1.5s ease;
-        }
+            -webkit-transition: all 2s ease;
+            -moz-transition: all 2s ease;
+            -ms-transition: all 2s ease;
+            -o-transition: all 2s ease;
+}
     
         .about .explain .h1.active {
             transform: translateX(0deg);
@@ -391,17 +386,17 @@ body {
     
         .about .explain div.p {
             transform: translateY(190px);
-            transition: all 1.2s ease;
+            transition: all 2s ease;
             opacity: 0.5;
             -webkit-transform: translateY(190px);
             -moz-transform: translateY(190px);
             -ms-transform: translateY(190px);
             -o-transform: translateY(190px);
-            -webkit-transition: all 1.2s ease;
-            -moz-transition: all 1.2s ease;
-            -ms-transition: all 1.2s ease;
-            -o-transition: all 1.2s ease;
-        }
+            -webkit-transition: all 2s ease;
+            -moz-transition: all 2s ease;
+            -ms-transition: all 2s ease;
+            -o-transition: all 2s ease;
+}
     
         .about .explain div.p.active {
             transform: translateY(0px);
@@ -441,7 +436,7 @@ body {
             -moz-transition: all 1.5s ease;
             -ms-transition: all 1.5s ease;
             -o-transition: all 1.5s ease;
-        }
+}
 
 
     
