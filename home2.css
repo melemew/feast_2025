@@ -265,7 +265,8 @@
 
     /* bagian about */
     main .about {
-        background-image: url(img/third_bg.webp);
+        border-top: 23px solid #181145;
+        background-image: url(img/about2_bg.jpg);
         background-position: 0px -370px;
         background-repeat: no-repeat;
         background-size: cover;
@@ -293,6 +294,7 @@
         background: rgba(0, 0, 0, 0.3);
         backdrop-filter: saturate(100%) blur(6px);
         overflow: hidden;
+        box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.8);
     }
 
     .about .explain {
