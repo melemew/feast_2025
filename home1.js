@@ -50,7 +50,7 @@ setInterval(() => {
 // hitung mundur acara feast
 const hitungMundur = setInterval(() => {
 
-        const ultah = new Date(`10 october 2025 00:00:00`).getTime();
+        const ultah = new Date(`13 october 2025 00:00:00`).getTime();
         const today = new Date().getTime();
 
         const selisih = ultah - today;
