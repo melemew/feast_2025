@@ -280,16 +280,11 @@
         width: 1150px;
         height: 500px;
         padding: 10px;
-        box-sizing: border-box;
         border-radius: 10px;
         display: grid;
         grid-template-areas: "explain video";
         grid-template-columns: 1fr 1fr;
         grid-gap: 10px;
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10px;
-        -ms-border-radius: 10px;
-        -o-border-radius: 10px;
         position: absolute;
         background: rgba(0, 0, 0, 0.3);
         backdrop-filter: saturate(100%) blur(6px);
