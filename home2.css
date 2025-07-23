@@ -267,7 +267,7 @@
     main .about {
         border-top: 23px solid #181145;
         background-image: url(img/about2_bg.jpg);
-        background-position: 0px -370px;
+        /* background-position: 0px -370px; */
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
