@@ -13,6 +13,15 @@
         /* color: white;*/
         font-size: 15px;
         font-weight: bold;
+        text-shadow:
+            -1px -1px 0 black,
+            1px -1px 0 black,
+            -1px  1px 0 black,
+            1px  1px 0 black,
+            0px  2px 0 black,
+            2px  0px 0 black,
+            0px -2px 0 black,
+            -2px  0px 0 black;
     }
 
     h2#hitungMundur li {
@@ -21,12 +30,30 @@
         justify-content: center;
         align-items: center;
         color: gold;
+        text-shadow:
+            -1px -1px 0 black,
+            1px -1px 0 black,
+            -1px  1px 0 black,
+            1px  1px 0 black,
+            0px  2px 0 black,
+            2px  0px 0 black,
+            0px -2px 0 black,
+            -2px  0px 0 black;
     }
 
     h2#hitungMundur li span {
         /* color: gold;*/
         /* color: red;*/
         color: white;
+        text-shadow:
+            -1px -1px 0 black,
+            1px -1px 0 black,
+            -1px  1px 0 black,
+            1px  1px 0 black,
+            0px  2px 0 black,
+            2px  0px 0 black,
+            0px -2px 0 black,
+            -2px  0px 0 black;
     }
 
 
