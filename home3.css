@@ -400,7 +400,8 @@
         }
     
         .about .explain p span {
-            color: purple;
+            /* color: purple;*/
+            color: cyan;
         }
     
         .about .explain p span.penting {

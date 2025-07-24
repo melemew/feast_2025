@@ -332,7 +332,8 @@
     }
 
     .about .explain p {
-        color: white;
+        /* color: white;*/
+        color: cyan;
         font-size: 15px;
         /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
         text-transform: capitalize;
