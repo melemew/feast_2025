@@ -10,7 +10,8 @@
         display: flex;
         justify-content: center;
         /* gap: 5px; */
-        color: white;
+        /* color: white;*/
+        color: gold;
         font-size: 15px;
         font-weight: bold;
     }
@@ -24,7 +25,8 @@
     }
 
     h2#hitungMundur li span {
-        color: gold;
+        /* color: gold;*/
+        color: red;
     }
 
 
