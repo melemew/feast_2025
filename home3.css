@@ -42,9 +42,10 @@
     }
 
     h2#hitungMundur li span {
-        /* color: gold;*/
+        color: gold;
         /* color: red;*/
-        color: white;
+        font-family: countdown;
+        /* color: white;*/
         text-shadow:
             -1px -1px 0 black,
             1px -1px 0 black,

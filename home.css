@@ -2,12 +2,19 @@
     --darkcolor:#181145;
 }
 
+
+@font-face {
+    font-family: "countdown";
+    src: url(font/Bittypix\ Countdown.otf);
+}
+
+
 h2#hitungMundur ul {
     list-style: none;
     display: flex;
     justify-content: center;
     gap: 15px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 h2#hitungMundur li {
@@ -15,11 +22,30 @@ h2#hitungMundur li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: rgb(212, 201, 201);
+    color: rgb(255, 255, 255);
+    text-shadow:
+            -1px -1px 0 black,
+            1px -1px 0 black,
+            -1px  1px 0 black,
+            1px  1px 0 black,
+            0px  2px 0 black,
+            2px  0px 0 black,
+            0px -2px 0 black,
+            -2px  0px 0 black;
 }
 
 h2#hitungMundur li span {
-    color: gold;
+    font-family: countdown;
+    color: rgb(255, 234, 0);
+    text-shadow:
+            -1px -1px 0 black,
+            1px -1px 0 black,
+            -1px  1px 0 black,
+            1px  1px 0 black,
+            0px  2px 0 black,
+            2px  0px 0 black,
+            0px -2px 0 black,
+            -2px  0px 0 black;
 }
 
 * {
@@ -37,6 +63,7 @@ body {
     font-family: "indonesia";
     src: url(font/boutiques_of_merauke/Boutiques\ of\ Merauke.otf);
 }
+
 
 @media screen and (min-width : 1024px) {
     /* bagian container navbar */
@@ -244,7 +271,7 @@ body {
     
         main .home div h2 {
             font-family: indonesia;
-            color: rgb(212, 201, 201);
+            color: white;
             padding: 0;
             font-size: 84px;
             margin-top: 260px;
@@ -341,6 +368,7 @@ body {
             font-family: indonesia;
             font-size: 105px;
             text-transform: capitalize;
+            color: white;
         }
     
         .about .explain .h1 {
