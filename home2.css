@@ -302,6 +302,7 @@
     }
 
     .about .explain h1 {
+        color: white;
         font-family: indonesia;
         font-size: 40px;
         text-transform: capitalize;
@@ -340,7 +341,7 @@
     }
 
     .about .explain p span {
-        color: purple;
+        color: cyan;
     }
 
     .about .explain p span.penting {
