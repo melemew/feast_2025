@@ -207,13 +207,21 @@
 
     main .home div h2 {
         font-family: indonesia;
-        color: white;
+        color: #1995FD;
         font-size: 84px;
         margin: auto;
         margin-top: 160px;
         animation: home_h2 2s;
         animation-timeline: reload();
-        -webkit-animation: home_h2 2s;
+        text-shadow:
+            -1px -1px 0 white,
+            1px -1px 0 white,
+            -1px  1px 0 white,
+            1px  1px 0 white,
+            0px  2px 0 white,
+            2px  0px 0 white,
+            0px -2px 0 white,
+            -2px  0px 0 white;
     }
 
     main .comingSoon {
@@ -302,7 +310,16 @@
     }
 
     .about .explain h1 {
-        color: white;
+        color: #1995FD;
+        text-shadow:
+            -1px -1px 0 white,
+            1px -1px 0 white,
+            -1px  1px 0 white,
+            1px  1px 0 white,
+            0px  2px 0 white,
+            2px  0px 0 white,
+            0px -2px 0 white,
+            -2px  0px 0 white;
         font-family: indonesia;
         font-size: 40px;
         text-transform: capitalize;
@@ -311,17 +328,17 @@
 
     .about .explain .h1 {
         transform: translateX(-90px);
-        transition: all 1.5s ease;
-        opacity: 0.5;
+        transition: all .3s ease;
+        opacity: 0.2;
         -webkit-transform: translateX(-90px);
         -moz-transform: translateX(-90px);
         -ms-transform: translateX(-90px);
         -o-transform: translateX(-90px);
-        -webkit-transition: all 1.5s ease;
-        -moz-transition: all 1.5s ease;
-        -ms-transition: all 1.5s ease;
-        -o-transition: all 1.5s ease;
-    }
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        -ms-transition: all .3s ease;
+        -o-transition: all .3s ease;
+}
 
     .about .explain .h1.active {
         transform: translateX(0deg);
@@ -333,8 +350,8 @@
     }
 
     .about .explain p {
-        /* color: white;*/
-        color: cyan;
+        color: white;
+        /* color: cyan; */
         font-size: 15px;
         /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
         text-transform: capitalize;
@@ -355,17 +372,17 @@
 
     .about .explain div.p {
         transform: translateY(190px);
-        transition: all 1.2s ease;
-        opacity: 0.5;
+        transition: all .2s ease;
+        opacity: 0.3;
         -webkit-transform: translateY(190px);
         -moz-transform: translateY(190px);
         -ms-transform: translateY(190px);
         -o-transform: translateY(190px);
-        -webkit-transition: all 1.2s ease;
-        -moz-transition: all 1.2s ease;
-        -ms-transition: all 1.2s ease;
-        -o-transition: all 1.2s ease;
-    }
+        -webkit-transition: all .2s ease;
+        -moz-transition: all .2s ease;
+        -ms-transition: all .2s ease;
+        -o-transition: all .2s ease;
+}
 
     .about .explain div.p.active {
         transform: translateY(0px);
@@ -392,19 +409,19 @@
     .about .video div {
         display: flex;
         justify-content: center;
-        align-items: end;   
+        align-items: end;
         transform: translateX(90px);
-        transition: all 1.5s ease;
+        transition: all .3s ease;
         opacity: 0.5;
         -webkit-transform: translateX(90px);
         -moz-transform: translateX(90px);
         -ms-transform: translateX(90px);
         -o-transform: translateX(90px);
-        -webkit-transition: all 1.5s ease;
-        -moz-transition: all 1.5s ease;
-        -ms-transition: all 1.5s ease;
-        -o-transition: all 1.5s ease;
-    }
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        -ms-transition: all .3s ease;
+        -o-transition: all .3s ease;
+}
 
     .about .video div.active {
         transform: translateX(0px);
@@ -454,7 +471,16 @@
     }
 
     main section .sponsortitle h1 {
-        color: white;
+        color: #1995FD;
+            text-shadow:
+            -1px -1px 0 white,
+            1px -1px 0 white,
+            -1px  1px 0 white,
+            1px  1px 0 white,
+            0px  2px 0 white,
+            2px  0px 0 white,
+            0px -2px 0 white,
+            -2px  0px 0 white;
         text-align: center;
         font-size: 45px;
     }
@@ -482,6 +508,7 @@
 
     /* bagian contact */
     main section.contact {
+        color: #181145;
         width: 100%;
         height: 330px;
         box-sizing: border-box;
@@ -529,7 +556,7 @@
     .ourContact div a {
         font-size: 15px;
         text-decoration: none;
-        color: black;
+        color: #181145;
     }
 
     .ourContact div a:hover {
@@ -648,6 +675,15 @@ main section.competition {
 
 .competition h1 strong {
     color: #ffd607;
+    text-shadow:
+            -1px -1px 0 white,
+            1px -1px 0 white,
+            -1px  1px 0 white,
+            1px  1px 0 white,
+            0px  2px 0 white,
+            2px  0px 0 white,
+            0px -2px 0 white,
+            -2px  0px 0 white;
     font-size: 40px;
     font-weight: bolder;
 }

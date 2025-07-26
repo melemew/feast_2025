@@ -363,7 +363,16 @@
         }
     
         .about .explain h1 {
-            color: white;
+            color: #1995FD;
+            text-shadow:
+            -1px -1px 0 white,
+            1px -1px 0 white,
+            -1px  1px 0 white,
+            1px  1px 0 white,
+            0px  2px 0 white,
+            2px  0px 0 white,
+            0px -2px 0 white,
+            -2px  0px 0 white;
             font-family: indonesia;
             font-size: 50px;
             text-transform: capitalize;
@@ -371,17 +380,17 @@
     
         .about .explain .h1 {
             transform: translateX(-90px);
-            transition: all 1.5s ease;
-            opacity: 0.5;
+            transition: all .2s ease;
+            opacity: 0.3;
             -webkit-transform: translateX(-90px);
             -moz-transform: translateX(-90px);
             -ms-transform: translateX(-90px);
             -o-transform: translateX(-90px);
-            -webkit-transition: all 1.5s ease;
-            -moz-transition: all 1.5s ease;
-            -ms-transition: all 1.5s ease;
-            -o-transition: all 1.5s ease;
-        }
+            -webkit-transition: all .2s ease;
+            -moz-transition: all .2s ease;
+            -ms-transition: all .2s ease;
+            -o-transition: all .2s ease;
+}
     
         .about .explain .h1.active {
             transform: translateX(0deg);
@@ -417,17 +426,17 @@
     
         .about .explain div.p {
             transform: translateY(190px);
-            transition: all 1.2s ease;
-            opacity: 0.5;
+            transition: all .2s ease;
+            opacity: 0.3;
             -webkit-transform: translateY(190px);
             -moz-transform: translateY(190px);
             -ms-transform: translateY(190px);
             -o-transform: translateY(190px);
-            -webkit-transition: all 1.2s ease;
-            -moz-transition: all 1.2s ease;
-            -ms-transition: all 1.2s ease;
-            -o-transition: all 1.2s ease;
-        }
+            -webkit-transition: all .2s ease;
+            -moz-transition: all .2s ease;
+            -ms-transition: all .2s ease;
+            -o-transition: all .2s ease;
+}
     
         .about .explain div.p.active {
             transform: translateY(0px);
@@ -454,17 +463,17 @@
             justify-content: center;
             margin-bottom: 40px;
             transform: translateX(90px);
-            transition: all 1.5s ease;
+            transition: all .3s ease;
             opacity: 0.5;
             -webkit-transform: translateX(90px);
             -moz-transform: translateX(90px);
             -ms-transform: translateX(90px);
             -o-transform: translateX(90px);
-            -webkit-transition: all 1.5s ease;
-            -moz-transition: all 1.5s ease;
-            -ms-transition: all 1.5s ease;
-            -o-transition: all 1.5s ease;
-        }
+            -webkit-transition: all .3s ease;
+            -moz-transition: all .3s ease;
+            -ms-transition: all .3s ease;
+            -o-transition: all .3s ease;
+}
     
         .about .video div.active {
             transform: translateX(0px);
@@ -514,7 +523,16 @@
         }
     
         main section .sponsortitle h1 {
-            color: white;
+            color: #1995FD;
+            text-shadow:
+            -1px -1px 0 white,
+            1px -1px 0 white,
+            -1px  1px 0 white,
+            1px  1px 0 white,
+            0px  2px 0 white,
+            2px  0px 0 white,
+            0px -2px 0 white,
+            -2px  0px 0 white;
             text-align: center;
             font-size: 25px;
         }
@@ -542,6 +560,7 @@
     
         /* bagian contact */
         main section.contact {
+            color: #181145;
             width: 100%;
             padding: 25px;
             box-sizing: border-box;
@@ -591,7 +610,7 @@
         .ourContact div a {
             font-size: 15px;
             text-decoration: none;
-            color: black;
+            color: #181145;
         }
     
         .ourContact div a:hover {
@@ -707,6 +726,15 @@ main section.competition {
 
 .competition h1 strong {
     color: #ffd607;
+    text-shadow:
+            -1px -1px 0 white,
+            1px -1px 0 white,
+            -1px  1px 0 white,
+            1px  1px 0 white,
+            0px  2px 0 white,
+            2px  0px 0 white,
+            0px -2px 0 white,
+            -2px  0px 0 white;
     font-size: 40px;
     font-weight: bolder;
 }

@@ -22,16 +22,16 @@ h2#hitungMundur li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: rgb(255, 255, 255);
+    color: #1995FD;
     text-shadow:
-            -1px -1px 0 black,
-            1px -1px 0 black,
-            -1px  1px 0 black,
-            1px  1px 0 black,
-            0px  2px 0 black,
-            2px  0px 0 black,
-            0px -2px 0 black,
-            -2px  0px 0 black;
+            -1px -1px 0 white,
+            1px -1px 0 white,
+            -1px  1px 0 white,
+            1px  1px 0 white,
+            0px  2px 0 white,
+            2px  0px 0 white,
+            0px -2px 0 white,
+            -2px  0px 0 white;
 }
 
 h2#hitungMundur li span {
@@ -271,13 +271,21 @@ body {
     
         main .home div h2 {
             font-family: indonesia;
-            color: white;
+            color: #1995FD;
             padding: 0;
             font-size: 84px;
             margin-top: 260px;
             animation: home_h2 2s;
             animation-timeline: reload();
-            -webkit-animation: home_h2 2s;
+            text-shadow:
+            -1px -1px 0 white,
+            1px -1px 0 white,
+            -1px  1px 0 white,
+            1px  1px 0 white,
+            0px  2px 0 white,
+            2px  0px 0 white,
+            0px -2px 0 white,
+            -2px  0px 0 white;
         }
     
         main .comingSoon {
@@ -368,21 +376,30 @@ body {
             font-family: indonesia;
             font-size: 105px;
             text-transform: capitalize;
-            color: white;
+            color: #1995FD;
+            text-shadow:
+            -1px -1px 0 white,
+            1px -1px 0 white,
+            -1px  1px 0 white,
+            1px  1px 0 white,
+            0px  2px 0 white,
+            2px  0px 0 white,
+            0px -2px 0 white,
+            -2px  0px 0 white;
         }
     
         .about .explain .h1 {
             transform: translateX(-90px);
-            transition: all 2s ease;
-            opacity: 0.5;
+            transition: all .3s ease;
+            opacity: 0.2;
             -webkit-transform: translateX(-90px);
             -moz-transform: translateX(-90px);
             -ms-transform: translateX(-90px);
             -o-transform: translateX(-90px);
-            -webkit-transition: all 2s ease;
-            -moz-transition: all 2s ease;
-            -ms-transition: all 2s ease;
-            -o-transition: all 2s ease;
+            -webkit-transition: all .3s ease;
+            -moz-transition: all .3s ease;
+            -ms-transition: all .3s ease;
+            -o-transition: all .3s ease;
 }
     
         .about .explain .h1.active {
@@ -416,16 +433,16 @@ body {
     
         .about .explain div.p {
             transform: translateY(190px);
-            transition: all 2s ease;
-            opacity: 0.5;
+            transition: all .2s ease-out;
+            opacity: 0.3;
             -webkit-transform: translateY(190px);
             -moz-transform: translateY(190px);
             -ms-transform: translateY(190px);
             -o-transform: translateY(190px);
-            -webkit-transition: all 2s ease;
-            -moz-transition: all 2s ease;
-            -ms-transition: all 2s ease;
-            -o-transition: all 2s ease;
+            -webkit-transition: all .2s ease-out;
+            -moz-transition: all .2s ease-out;
+            -ms-transition: all .2s ease-out;
+            -o-transition: all .2s ease-out;
 }
     
         .about .explain div.p.active {
@@ -456,16 +473,16 @@ body {
             justify-content: center;
             align-items: center;
             transform: translateX(90px);
-            transition: all 1.5s ease;
+            transition: all .3s ease;
             opacity: 0.5;
             -webkit-transform: translateX(90px);
             -moz-transform: translateX(90px);
             -ms-transform: translateX(90px);
             -o-transform: translateX(90px);
-            -webkit-transition: all 1.5s ease;
-            -moz-transition: all 1.5s ease;
-            -ms-transition: all 1.5s ease;
-            -o-transition: all 1.5s ease;
+            -webkit-transition: all .3s ease;
+            -moz-transition: all .3s ease;
+            -ms-transition: all .3s ease;
+            -o-transition: all .3s ease;
 }
 
 
@@ -518,7 +535,16 @@ body {
         }
     
         main section .sponsortitle h1 {
-            color: white;
+            color: #1995FD;
+            text-shadow:
+            -1px -1px 0 white,
+            1px -1px 0 white,
+            -1px  1px 0 white,
+            1px  1px 0 white,
+            0px  2px 0 white,
+            2px  0px 0 white,
+            0px -2px 0 white,
+            -2px  0px 0 white;
             text-align: center;
             font-size: 45px;
         }
@@ -546,6 +572,7 @@ body {
     
         /* bagian contact */
         main section.contact {
+            color: #181145;
             width: 100%;
             height: 330px;
             box-sizing: border-box;
@@ -592,7 +619,7 @@ body {
         .ourContact div a {
             font-size: 15px;
             text-decoration: none;
-            color: black;
+            color: #181145;
         }
     
         .ourContact div a:hover {
@@ -716,7 +743,16 @@ main section.competition {
 }
 
 .competition h1 strong {
-    color: #ffd607;
+    color: gold;
+            text-shadow:
+            -1px -1px 0 white,
+            1px -1px 0 white,
+            -1px  1px 0 white,
+            1px  1px 0 white,
+            0px  2px 0 white,
+            2px  0px 0 white,
+            0px -2px 0 white,
+            -2px  0px 0 white;
     font-size: 40px;
     font-weight: bolder;
 }

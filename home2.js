@@ -4,11 +4,11 @@ for (let i=0; i < gender.length; i++) {
     gender[i].addEventListener('click', (e) => {
         if (e.target.classList.contains('putra')) {
             const idny = new URLSearchParams({ gender: 'putra' }).toString();
-            window.location.href = `/feast_2025/competition?${idny}`;
+            window.location.href = `competition.html?${idny}`;
         }
         if (e.target.classList.contains('putri')) {
             const idny = new URLSearchParams({ gender: 'putri' }).toString();
-            window.location.href = `/feast_2025/competition?${idny}`;
+            window.location.href = `competition.html?${idny}`;
         }
     })
 }
