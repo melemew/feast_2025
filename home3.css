@@ -29,16 +29,16 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        color: white;
+        color: #1995FD;
         text-shadow:
-            -1px -1px 0 black,
-            1px -1px 0 black,
-            -1px  1px 0 black,
-            1px  1px 0 black,
-            0px  2px 0 black,
-            2px  0px 0 black,
-            0px -2px 0 black,
-            -2px  0px 0 black;
+            -1px -1px 0 white,
+            1px -1px 0 white,
+            -1px  1px 0 white,
+            1px  1px 0 white,
+            0px  2px 0 white,
+            2px  0px 0 white,
+            0px -2px 0 white,
+            -2px  0px 0 white;
     }
 
     h2#hitungMundur li span {
@@ -267,7 +267,16 @@
         main .home div h2 {
             z-index: 60;
             font-family: indonesia;
-            color: white;
+            color: #1995FD;
+            text-shadow:
+            -1px -1px 0 white,
+            1px -1px 0 white,
+            -1px  1px 0 white,
+            1px  1px 0 white,
+            0px  2px 0 white,
+            2px  0px 0 white,
+            0px -2px 0 white,
+            -2px  0px 0 white;
             font-size: 38px;
             text-align: center;
             margin-top: 10px;
