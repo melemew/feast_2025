@@ -533,18 +533,33 @@ body {
             font-family: indonesia;
             color: #7C512B;
             font-size: 60px;
-            margin-top: 80px;
-            /* margin-bottom: 60px; */
-            text-shadow:
-            -4px -2px 0 #333333,
-            -4px -2px 0 #333333
-        }
+            margin-top: 40px;
+            margin-bottom: 60px;
+            text-shadow:            -4px -2px 0 #333333,            -4px -2px 0 #333333;
+            transition: .3s ease;
+            transform: translateY(-80px);
+            opacity: 0.5;
+}
+
+        .nusantara h2.active {
+            transition: .3s ease;
+            transform: translateY(0px);
+            opacity: 1;
+}
 
         .nusantara img {
             width: 65%;
-            margin-top: 80px;
-        }
+            /* margin-top: 0px; */
+            transition: .3s ease;
+            transform: translateY(80px);
+            opacity: 0.5;
+}
     
+        .nusantara img.active {
+            opacity: 1;
+            transform: translateY(0px);
+            transition: .3s ease;
+}
     
     
     
@@ -637,17 +652,9 @@ body {
             justify-items: center;
             padding: 20px 0 0 0;
             transform: translateX(-100px);
-            transition: all 2s ease;
+            transition: all .3s ease;
             opacity: 0;
-            -webkit-transform: translateX(-100px);
-            -moz-transform: translateX(-100px);
-            -ms-transform: translateX(-100px);
-            -o-transform: translateX(-100px);
-            -webkit-transition: all 2s ease;
-            -moz-transition: all 2s ease;
-            -ms-transition: all 2s ease;
-            -o-transition: all 2s ease;
-        }
+}
     
         .ourContact div {
             width: 400px;
@@ -680,17 +687,9 @@ body {
             box-sizing: border-box;
             padding: 20px 0 0 0;
             transform: translateX(100px);
-            transition: all 2s ease;
+            transition: all .3s ease;
             opacity: 0;
-            -webkit-transform: translateX(100px);
-            -moz-transform: translateX(100px);
-            -ms-transform: translateX(100px);
-            -o-transform: translateX(100px);
-            -webkit-transition: all 2s ease;
-            -moz-transition: all 2s ease;
-            -ms-transition: all 2s ease;
-            -o-transition: all 2s ease;
-        }
+}
     
         .ourMap div {
             justify-items: end;
@@ -709,17 +708,9 @@ body {
             justify-content: center;
             align-items: center;
             transform: translateY(100px);
-            transition: all 2s ease;
+            transition: all .3s ease;
             opacity: 0;
-            -webkit-transform: translateY(100px);
-            -moz-transform: translateY(100px);
-            -ms-transform: translateY(100px);
-            -o-transform: translateY(100px);
-            -webkit-transition: all 2s ease;
-            -moz-transition: all 2s ease;
-            -ms-transition: all 2s ease;
-            -o-transition: all 2s ease;
-        }
+}
     
         .ourMedia .igMedia {
             width: 40px;
@@ -735,29 +726,13 @@ body {
     
         .ourMedia a img {
             transform: scale(1);
-            transition: all 0.5s ease;
-            -webkit-transform: scale(1);
-            -moz-transform: scale(1);
-            -ms-transform: scale(1);
-            -o-transform: scale(1);
-            -webkit-transition: all 0.5s ease;
-            -moz-transition: all 0.5s ease;
-            -ms-transition: all 0.5s ease;
-            -o-transition: all 0.5s ease;
-        }
+            transition: all .3s ease;
+}
     
         .ourMedia a:hover img {
             transform: scale(1.2);
-            transition: all 0.5s ease;
-            -webkit-transform: scale(1.2);
-            -moz-transform: scale(1.2);
-            -ms-transform: scale(1.2);
-            -o-transform: scale(1.2);
-            -webkit-transition: all 0.5s ease;
-            -moz-transition: all 0.5s ease;
-            -ms-transition: all 0.5s ease;
-            -o-transition: all 0.5s ease;
-        }
+            transition: all .3s ease;
+}
 }
     
     
@@ -798,7 +773,7 @@ main section.competition {
 
 .competition h1 {
     transform: translateX(-100px);
-    transition: all 2s ease;
+    transition: all .3s ease;
     opacity: 0.5;
 }
 
@@ -806,7 +781,7 @@ main section.competition {
     box-shadow: rgba(0, 0, 0, 0.3) 5px 5px;
     padding: 10px;
     width: 200px;
-    transition: all 0.5s ease;
+    transition: all .3s ease;
     cursor: pointer;
     display: flex;
     flex-direction: column;
@@ -815,7 +790,7 @@ main section.competition {
 
 .card:hover {
     transform: scale(1.05);
-    transition: all 0.5s ease;
+    transition: all .5s ease;
 }
 
 .competition .pilih_gender {
@@ -831,7 +806,7 @@ main section.competition {
 
 .pilih_gender {
     transform: translateX(100px);
-    transition: all 2s ease;
+    transition: all .3s ease;
     opacity: 0.5;
 }
 
@@ -841,7 +816,7 @@ main section.competition {
 
 .pilih_gender img:hover {
     transform: scale(1.1);
-    transition: all 0.5s ease;
+    transition: all .5s ease;
 }
 
 .pilih_gender h6 {

@@ -11,17 +11,8 @@
         justify-content: center;
         /* gap: 5px; */
         /* color: white;*/
-        font-size: 15px;
+        font-size: 20px;
         font-weight: bold;
-        text-shadow:
-            -1px -1px 0 black,
-            1px -1px 0 black,
-            -1px  1px 0 black,
-            1px  1px 0 black,
-            0px  2px 0 black,
-            2px  0px 0 black,
-            0px -2px 0 black,
-            -2px  0px 0 black;
     }
 
     h2#hitungMundur li {
@@ -29,32 +20,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        color: #1995FD;
-        text-shadow:
-            -1px -1px 0 white,
-            1px -1px 0 white,
-            -1px  1px 0 white,
-            1px  1px 0 white,
-            0px  2px 0 white,
-            2px  0px 0 white,
-            0px -2px 0 white,
-            -2px  0px 0 white;
-    }
-
-    h2#hitungMundur li span {
-        color: gold;
-        /* color: red;*/
-        font-family: countdown;
-        /* color: white;*/
-        text-shadow:
-            -1px -1px 0 black,
-            1px -1px 0 black,
-            -1px  1px 0 black,
-            1px  1px 0 black,
-            0px  2px 0 black,
-            2px  0px 0 black,
-            0px -2px 0 black,
-            -2px  0px 0 black;
     }
 
 
@@ -336,10 +301,10 @@
         /* bagian about */
         main .about {
             border-top: 23px solid #181145;
-            background-image: url(img/about2_bg.jpg);
+            background-image: url(img/bg_about.png);
             /* background-position: 0px -500px; */
             background-repeat: no-repeat;
-            background-position: center;
+            background-position: left;
             background-size: cover;
             display: flex;
             align-items: center;
@@ -348,19 +313,15 @@
         }
     
         main .about .container {
-            width: 380px;
+            width: 647px;
             height: 700px;
-            padding: 10px;
+            /* padding: 10px; */
             box-sizing: border-box;
             display: grid;
             grid-template-areas: "explain" "video";
-            grid-template-columns: 1fr 1fr;
-            grid-gap: 10px;
+            grid-template-rows: 1.5fr 1.5fr;
+            grid-gap: 5px;
             position: absolute;
-            background: rgba(0, 0, 0, 0.2);
-            backdrop-filter: saturate(100%) blur(4px);
-            overflow: hidden;
-            box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.8);
         }
     
         .about .explain {
@@ -373,18 +334,13 @@
         }
     
         .about .explain h1 {
-            color: #1995FD;
+            color: #7c512b;
+            margin-top: 90px;
             text-shadow:
-            -1px -1px 0 white,
-            1px -1px 0 white,
-            -1px  1px 0 white,
-            1px  1px 0 white,
-            0px  2px 0 white,
-            2px  0px 0 white,
-            0px -2px 0 white,
-            -2px  0px 0 white;
+            -4px -2px 0 #333333,
+            -4px -2px 0 #333333;
             font-family: indonesia;
-            font-size: 50px;
+            font-size: 45px;
             text-transform: capitalize;
         }
     
@@ -412,28 +368,14 @@
         }
     
         .about .explain p {
-            color: white;
+            color: #7c512b;
             font-size: 15px;
             text-align: start;
             word-wrap: break-word;
             /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
             text-transform: capitalize;
         }
-    
-        .about .explain p span {
-            /* color: purple;*/
-            color: cyan;
-        }
-    
-        .about .explain p span.penting {
-            color: gold;
-            background-color: var(--darkcolor);
-        }
 
-        .about .explain p span.penting2 {
-            color: gold;
-        }
-    
         .about .explain div.p {
             transform: translateY(190px);
             transition: all .2s ease;
@@ -462,8 +404,9 @@
             grid-area: video;
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: left;
             padding: 10px;
+            position: relative;
         }
     
         .about .video div {
@@ -493,6 +436,77 @@
             -ms-transform: translateX(0px);
             -o-transform: translateX(0px);
         }
+
+        .about .video img {
+            position: absolute;
+            width: 340px;
+            height: 240px;
+            top: -10px;
+            transform: translateX(90px);
+            transition: all .3s ease;
+            opacity: 0.5;
+        }
+
+        .about .video img.active {
+            transform: translateX(0px);
+            opacity: 1;
+            -webkit-transform: translateX(0px);
+            -moz-transform: translateX(0px);
+            -ms-transform: translateX(0px);
+            -o-transform: translateX(0px);
+        }
+
+
+
+
+
+
+        /* bagian nusantara */
+        main section.nusantara {
+            background-image: url(img/bg_nusantara.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .nusantara h2 {
+            font-family: indonesia;
+            color: #7C512B;
+            font-size: 50px;
+            margin-top: -130px;
+            margin-bottom: 120px;
+            text-shadow:            -4px -2px 0 #333333,            -4px -2px 0 #333333;
+            transition: .3s ease;
+            transform: translateY(-80px);
+            opacity: 0.5;
+}
+
+        .nusantara h2.active {
+            transition: .3s ease;
+            transform: translateY(0px);
+            opacity: 1;
+}
+
+        .nusantara img {
+            width: 85%;
+            margin-bottom: -90px;
+            transition: .3s ease;
+            transform: translateY(80px);
+            opacity: 0.5;
+}
+    
+        .nusantara img.active {
+            opacity: 1;
+            transform: translateY(0px);
+            transition: .3s ease;
+}
+
+
+
     
     
     
@@ -503,12 +517,11 @@
             width: 100%;
             height: 370px;
             box-sizing: border-box;
-            background-image: url(img/sponsor_bg.jpg);
+            background-image: url(img/bg_sponsor.png);
             background-repeat: no-repeat;
             background-size: cover;
             display: flex;
             flex-direction: column;
-            border: black 2px solid;
         }
     
         main section .sponsorcontent {
@@ -533,18 +546,13 @@
         }
     
         main section .sponsortitle h1 {
-            color: #1995FD;
+            color: #7c512b;
             text-shadow:
-            -1px -1px 0 white,
-            1px -1px 0 white,
-            -1px  1px 0 white,
-            1px  1px 0 white,
-            0px  2px 0 white,
-            2px  0px 0 white,
-            0px -2px 0 white,
-            -2px  0px 0 white;
+            -4px -2px 0 #333333,
+            -4px -2px 0 #333333;
             text-align: center;
-            font-size: 25px;
+            font-size: 35px;
+            font-weight: bold;
         }
     
         /* bagian acara */
@@ -581,7 +589,7 @@
             grid-template-areas: "contact" "media" "map";
             grid-template-columns: 1fr 1fr 1fr;
             overflow: hidden;
-            background-color: rgb(29, 186, 214);
+            background-color: #1474AF;
         }
     
         .contact h4,
@@ -594,17 +602,9 @@
             align-items: start;
             padding: 20px 0 0 0;
             transform: translateX(-100px);
-            transition: all 2s ease;
+            transition: all .3s ease;
             opacity: 0;
-            -webkit-transform: translateX(-100px);
-            -moz-transform: translateX(-100px);
-            -ms-transform: translateX(-100px);
-            -o-transform: translateX(-100px);
-            -webkit-transition: all 2s ease;
-            -moz-transition: all 2s ease;
-            -ms-transition: all 2s ease;
-            -o-transition: all 2s ease;
-        }
+}
     
         .ourContact div {
             width: 400px;
@@ -637,17 +637,9 @@
             box-sizing: border-box;
             padding: 20px 0 0 0;
             transform: translateX(100px);
-            transition: all 2s ease;
+            transition: all .3s ease;
             opacity: 0;
-            -webkit-transform: translateX(100px);
-            -moz-transform: translateX(100px);
-            -ms-transform: translateX(100px);
-            -o-transform: translateX(100px);
-            -webkit-transition: all 2s ease;
-            -moz-transition: all 2s ease;
-            -ms-transition: all 2s ease;
-            -o-transition: all 2s ease;
-        }
+}
     
         .ourMap div {
             justify-items: start;
@@ -663,17 +655,9 @@
         .ourMedia {
             margin-top: 30px;
             transform: translateY(100px);
-            transition: all 2s ease;
+            transition: all .3s ease;
             opacity: 0;
-            -webkit-transform: translateY(100px);
-            -moz-transform: translateY(100px);
-            -ms-transform: translateY(100px);
-            -o-transform: translateY(100px);
-            -webkit-transition: all 2s ease;
-            -moz-transition: all 2s ease;
-            -ms-transition: all 2s ease;
-            -o-transition: all 2s ease;
-        }
+}
     
         .ourMedia .igMedia {
             width: 40px;
@@ -689,29 +673,13 @@
     
         .ourMedia a img {
             transform: scale(1);
-            transition: all 0.5s ease;
-            -webkit-transform: scale(1);
-            -moz-transform: scale(1);
-            -ms-transform: scale(1);
-            -o-transform: scale(1);
-            -webkit-transition: all 0.5s ease;
-            -moz-transition: all 0.5s ease;
-            -ms-transition: all 0.5s ease;
-            -o-transition: all 0.5s ease;
-        }
+            transition: all .3s ease;
+}
     
         .ourMedia a:hover img {
             transform: scale(1.2);
-            transition: all 0.5s ease;
-            -webkit-transform: scale(1.2);
-            -moz-transform: scale(1.2);
-            -ms-transform: scale(1.2);
-            -o-transform: scale(1.2);
-            -webkit-transition: all 0.5s ease;
-            -moz-transition: all 0.5s ease;
-            -ms-transition: all 0.5s ease;
-            -o-transition: all 0.5s ease;
-        }
+            transition: all .3s ease;
+}
     
 
 
@@ -728,38 +696,33 @@ main section.competition {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    background-image: url(img/competition_bg.jpg);
+    background-image: url(img/bg_kompetisi.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .competition h1 strong {
-    color: #ffd607;
-    text-shadow:
-            -1px -1px 0 white,
-            1px -1px 0 white,
-            -1px  1px 0 white,
-            1px  1px 0 white,
-            0px  2px 0 white,
-            2px  0px 0 white,
-            0px -2px 0 white,
-            -2px  0px 0 white;
-    font-size: 40px;
+    color: #7c512b;
+            text-shadow:
+            -4px -2px 0 #333333,
+            -4px -2px 0 #333333;
+    font-size: 30px;
     font-weight: bolder;
 }
 
 .competition h1 {
     transform: translateX(-100px);
-    transition: all 2s ease;
+    transition: all .3s ease;
     opacity: 0.5;
+    margin-top: 40px;
 }
 
 .card {
     box-shadow: rgba(0, 0, 0, 0.3) 5px 5px;
     padding: 10px;
     width: 200px;
-    transition: all 0.5s ease;
+    transition: all .3s ease;
     cursor: pointer;
     display: flex;
     flex-direction: column;
@@ -784,7 +747,7 @@ main section.competition {
 
 .pilih_gender {
     transform: translateX(100px);
-    transition: all 2s ease;
+    transition: all .3s ease;
     opacity: 0.5;
 }
 
