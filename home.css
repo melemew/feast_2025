@@ -5,16 +5,18 @@
 
 @font-face {
     font-family: "countdown";
-    src: url(font/Bittypix\ Countdown.otf);
+    src: url(font/Simonetta1/Simonetta-Regular.ttf);
 }
 
 
 h2#hitungMundur ul {
+    font-family: countdown;
+    font-weight: bolder;
     list-style: none;
     display: flex;
     justify-content: center;
     gap: 15px;
-    color: rgb(255, 255, 255);
+    color: #7c512b;
 }
 
 h2#hitungMundur li {
@@ -22,8 +24,8 @@ h2#hitungMundur li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #1995FD;
-    text-shadow:
+    /* color: #1995FD; */
+    /* text-shadow:
             -1px -1px 0 white,
             1px -1px 0 white,
             -1px  1px 0 white,
@@ -31,12 +33,12 @@ h2#hitungMundur li {
             0px  2px 0 white,
             2px  0px 0 white,
             0px -2px 0 white,
-            -2px  0px 0 white;
+            -2px  0px 0 white; */
 }
 
 h2#hitungMundur li span {
-    font-family: countdown;
-    color: rgb(255, 234, 0);
+    /* font-family: countdown; */
+    /* color: rgb(255, 234, 0);
     text-shadow:
             -1px -1px 0 black,
             1px -1px 0 black,
@@ -45,7 +47,7 @@ h2#hitungMundur li span {
             0px  2px 0 black,
             2px  0px 0 black,
             0px -2px 0 black,
-            -2px  0px 0 black;
+            -2px  0px 0 black; */
 }
 
 * {
@@ -61,7 +63,7 @@ body {
 
 @font-face {
     font-family: "indonesia";
-    src: url(font/boutiques_of_merauke/Boutiques\ of\ Merauke.otf);
+    src: url(font/TAN-Headline/TANHEADLINE-Regular.otf);
 }
 
 
@@ -138,6 +140,7 @@ body {
         /* bagian puter" */
         .puter {
             position: absolute;
+            display: none;
         }
     
         .satu {
@@ -235,9 +238,10 @@ body {
     
         /* bagian home */
         .home {
-            background-image: url("img/first_bg2.jpg");
+            background-image: url("img/bg_home1.jpg");
             background-repeat: no-repeat;
             background-size: cover;
+            background-position: center;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -273,8 +277,8 @@ body {
             font-family: indonesia;
             color: #1995FD;
             padding: 0;
-            font-size: 84px;
-            margin-top: 260px;
+            font-size: 54px;
+            margin-top: 180px;
             animation: home_h2 2s;
             animation-timeline: reload();
             text-shadow:
@@ -291,10 +295,10 @@ body {
         main .comingSoon {
             width: 150px;
             height: 35px;
-            background-color: var(--darkcolor);
+            background-color: #1995FD;
             color: white;
             margin-top: 10px;
-            border: 3px solid black;
+            border: 3px solid #005397;
             box-sizing: border-box;
             text-align: center;
             padding-top: 2px;
@@ -338,7 +342,7 @@ body {
         /* bagian about */
         main .about {
             border-top: 23px solid #181145;
-            background-image: url(img/about2_bg.jpg);
+            background-image: url(img/bg_about.png);
             /* background-position: 0px -500px; */
             background-repeat: no-repeat;
             background-size: cover;
@@ -346,22 +350,20 @@ body {
             align-items: center;
             justify-content: center;
             position: relative;
+            padding: 0;
         }
     
         main .about .container {
-            width: 1150px;
+            width: 96%;
             height: 500px;
             padding: 20px;
             box-sizing: border-box;
             display: grid;
             grid-template-areas: "explain video";
-            grid-template-columns: 1fr 1fr;
-            grid-gap: 10px;
+            grid-template-columns: 1.5fr 1.5fr;
+            grid-gap: 30px;
             position: absolute;
-            background: rgba(0, 0, 0, 0.2);
-            backdrop-filter: saturate(100%) blur(6px);
             overflow: hidden;
-            box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.8);
         }
     
         .about .explain {
@@ -374,18 +376,13 @@ body {
     
         .about .explain h1 {
             font-family: indonesia;
-            font-size: 105px;
+            font-size: 70px;
+            margin-bottom: 50px;
             text-transform: capitalize;
-            color: #1995FD;
+            color: #7c512b;
             text-shadow:
-            -1px -1px 0 white,
-            1px -1px 0 white,
-            -1px  1px 0 white,
-            1px  1px 0 white,
-            0px  2px 0 white,
-            2px  0px 0 white,
-            0px -2px 0 white,
-            -2px  0px 0 white;
+            -4px -2px 0 #333333,
+            -4px -2px 0 #333333;
         }
     
         .about .explain .h1 {
@@ -412,24 +409,26 @@ body {
         }
     
         .about .explain p {
-            color: white;
+            color: #7c512b;
             font-size: 20px;
+            font-weight: bold;
+            font-family: nusantara;
             /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
             text-transform: capitalize;
         }
     
-        .about .explain p span {
+        /* .about .explain p span {
             color: cyan;
-        }
+        } */
     
-        .about .explain p span.penting {
+        /* .about .explain p span.penting {
             color: gold;
             background-color: var(--darkcolor);
-        }
+        } */
 
-        .about .explain p span.penting2 {
+        /* .about .explain p span.penting2 {
             color: gold;
-        }
+        } */
     
         .about .explain div.p {
             transform: translateY(190px);
@@ -461,11 +460,12 @@ body {
             align-items: center;
             justify-content: center;
             padding: 10px;
+            position: relative;
         }
 
         .about .video iframe {
-            width: 500px;
-            height: 300px;
+            width: 438px;
+            height: 270px;
         }
     
         .about .video div {
@@ -483,7 +483,15 @@ body {
             -moz-transition: all .3s ease;
             -ms-transition: all .3s ease;
             -o-transition: all .3s ease;
-}
+        }
+
+        .about .video img {
+            position: absolute;
+            width: 500px;
+            transform: translateX(90px);
+            transition: all .3s ease;
+            opacity: 0.5;
+        }
 
 
     
@@ -495,7 +503,47 @@ body {
             -ms-transform: translateX(0px);
             -o-transform: translateX(0px);
         }
-    
+
+        .about .video img.active {
+            transform: translateX(0px);
+            opacity: 1;
+            -webkit-transform: translateX(0px);
+            -moz-transform: translateX(0px);
+            -ms-transform: translateX(0px);
+            -o-transform: translateX(0px);
+        }
+
+
+
+
+
+        /* bagian nusantara */
+        main section.nusantara {
+            background-image: url(img/bg_nusantara.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* background-position: 0 -10px; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .nusantara h2 {
+            font-family: indonesia;
+            color: #7C512B;
+            font-size: 60px;
+            margin-top: 80px;
+            /* margin-bottom: 60px; */
+            text-shadow:
+            -4px -2px 0 #333333,
+            -4px -2px 0 #333333
+        }
+
+        .nusantara img {
+            width: 65%;
+            margin-top: 80px;
+        }
     
     
     
@@ -505,12 +553,13 @@ body {
             width: 100%;
             height: 370px;
             box-sizing: border-box;
-            background-image: url(img/sponsor_bg.jpg);
+            background-image: url(img/bg_sponsor.png);
             background-repeat: no-repeat;
             background-size: cover;
+            background-position: center;
             display: flex;
             flex-direction: column;
-            border: black 2px solid;
+            /* border: black 2px solid; */
         }
     
         main section .sponsorcontent {
@@ -535,17 +584,12 @@ body {
         }
     
         main section .sponsortitle h1 {
-            color: #1995FD;
+            color: #7c512b;
             text-shadow:
-            -1px -1px 0 white,
-            1px -1px 0 white,
-            -1px  1px 0 white,
-            1px  1px 0 white,
-            0px  2px 0 white,
-            2px  0px 0 white,
-            0px -2px 0 white,
-            -2px  0px 0 white;
+            -2px -2px 0 #333333,
+            -2px -2px 0 #333333;
             text-align: center;
+            font-family: indonesia;
             font-size: 45px;
         }
     
@@ -580,7 +624,7 @@ body {
             grid-template-areas: "contact media map";
             grid-template-columns: 1fr 1fr 1fr;
             overflow: hidden;
-            background-color: rgb(29, 186, 214);
+            background-color: #1474AF;
         }
     
         .contact h4,
@@ -736,25 +780,20 @@ main section.competition {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    background-image: url(img/competition_bg.jpg);
+    background-image: url(img/bg_kompetisi.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: 0 -80px;
 }
 
 .competition h1 strong {
-    color: gold;
-            text-shadow:
-            -1px -1px 0 white,
-            1px -1px 0 white,
-            -1px  1px 0 white,
-            1px  1px 0 white,
-            0px  2px 0 white,
-            2px  0px 0 white,
-            0px -2px 0 white,
-            -2px  0px 0 white;
-    font-size: 40px;
-    font-weight: bolder;
+    color: #7c512b;
+    text-shadow:
+            -2px -2px 0 #333333,
+            -2px -2px 0 #333333;
+    font-family: indonesia;
+    font-weight: bold;
+    font-size: 50px;    
 }
 
 .competition h1 {

@@ -71,6 +71,7 @@
     /* bagian puter" */
     .puter {
         position: absolute;
+        display: none;
     }
 
     .satu {
@@ -169,7 +170,7 @@
 
     /* bagian home */
     .home {
-        background-image: url("img/first_bg2.jpg");
+        background-image: url("img/bg_home1.jpg");
         background-repeat: no-repeat;
         background-position: top;
         background-size: cover;

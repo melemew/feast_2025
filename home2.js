@@ -26,7 +26,7 @@ setTimeout(() => {
         document.body.style.width = `${tambah2}px`;
     }
 
-    console.log(body);
+    // console.log(body);
     
 
     if (body >= 1024) {

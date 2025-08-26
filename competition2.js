@@ -23,6 +23,38 @@ const putra = {
             keterangan: 'Putra',
             class: 2,
             file: 'gambarSd'
+        },
+        {
+            title: 'Tennis meja',
+            img: 'img_sd/3.jpg',
+            rules: '',
+            keterangan: 'Putra',
+            class: 2,
+            file: 'gambarSd'
+        },
+        {
+            title: 'Badminton',
+            img: 'img_sd/3.jpg',
+            rules: '',
+            keterangan: 'Putra',
+            class: 2,
+            file: 'gambarSd'
+        },
+        {
+            title: 'Mewarnai',
+            img: 'img_sd/3.jpg',
+            rules: '',
+            keterangan: 'Putra',
+            class: 2,
+            file: 'gambarSd'
+        },
+        {
+            title: 'Story telling',
+            img: 'img_sd/3.jpg',
+            rules: '',
+            keterangan: 'Putra',
+            class: 2,
+            file: 'gambarSd'
         }
     ],
     gambarSmp: [
@@ -65,6 +97,38 @@ const putra = {
             keterangan: 'Putra',
             class: 4,
             file: 'gambarSmp'
+        },
+        {
+            title: 'Tennis meja',
+            img: 'img_sd/3.jpg',
+            rules: '',
+            keterangan: 'Putra',
+            class: 2,
+            file: 'gambarSmp'
+        },
+        {
+            title: 'Badminton',
+            img: 'img_sd/3.jpg',
+            rules: '',
+            keterangan: 'Putra',
+            class: 2,
+            file: 'gambarSmp'
+        },
+        {
+            title: 'Mewarnai',
+            img: 'img_sd/3.jpg',
+            rules: '',
+            keterangan: 'Putra',
+            class: 2,
+            file: 'gambarSmp'
+        },
+        {
+            title: 'Story telling',
+            img: 'img_sd/3.jpg',
+            rules: '',
+            keterangan: 'Putra',
+            class: 2,
+            file: 'gambarSmp'
         }
     ],
     gambarSma: [
@@ -74,7 +138,7 @@ const putra = {
             rules: '',
             keterangan: 'Putra',
             class: 0,
-            file: 'gambarSmp'
+            file: 'gambarSma'
         },
         {
             title: 'MHQ',
@@ -82,7 +146,7 @@ const putra = {
             rules: '',
             keterangan: 'Putra',
             class: 1,
-            file: 'gambarSmp'
+            file: 'gambarSma'
         },
         {
             title: 'Kaligrafi',
@@ -90,7 +154,7 @@ const putra = {
             rules: '',
             keterangan: 'Putra',
             class: 2,
-            file: 'gambarSmp'
+            file: 'gambarSma'
         },
         {
             title: 'SMS',
@@ -98,7 +162,39 @@ const putra = {
             rules: '',
             keterangan: 'Putra',
             class: 3,
-            file: 'gambarSmp'
+            file: 'gambarSma'
+        },
+        {
+            title: 'Tennis meja',
+            img: 'img_sd/3.jpg',
+            rules: '',
+            keterangan: 'Putra',
+            class: 2,
+            file: 'gambarSma'
+        },
+        {
+            title: 'Badminton',
+            img: 'img_sd/3.jpg',
+            rules: '',
+            keterangan: 'Putra',
+            class: 2,
+            file: 'gambarSma'
+        },
+        {
+            title: 'Mewarnai',
+            img: 'img_sd/3.jpg',
+            rules: '',
+            keterangan: 'Putra',
+            class: 2,
+            file: 'gambarSma'
+        },
+        {
+            title: 'Story telling',
+            img: 'img_sd/3.jpg',
+            rules: '',
+            keterangan: 'Putra',
+            class: 2,
+            file: 'gambarSma'
         }
     ]
 }
@@ -129,6 +225,38 @@ const putri = {
         class: 5,
         file: "gambarSd",
         },
+        {
+            title: 'Tennis meja',
+            img: 'img_sd/3.jpg',
+            rules: '',
+            keterangan: 'putri',
+            class: 2,
+            file: 'gambarSd'
+        },
+        {
+            title: 'Badminton',
+            img: 'img_sd/3.jpg',
+            rules: '',
+            keterangan: 'putri',
+            class: 2,
+            file: 'gambarSd'
+        },
+        {
+            title: 'Mewarnai',
+            img: 'img_sd/3.jpg',
+            rules: '',
+            keterangan: 'putri',
+            class: 2,
+            file: 'gambarSd'
+        },
+        {
+            title: 'Story telling',
+            img: 'img_sd/3.jpg',
+            rules: '',
+            keterangan: 'putri',
+            class: 2,
+            file: 'gambarSd'
+        }
     ],
     gambarSmp: [
         {
@@ -163,6 +291,38 @@ const putri = {
         class: 5,
         file: "gambarSmp",
         },
+        {
+            title: 'Tennis meja',
+            img: 'img_sd/3.jpg',
+            rules: '',
+            keterangan: 'putri',
+            class: 2,
+            file: 'gambarSmp'
+        },
+        {
+            title: 'Badminton',
+            img: 'img_sd/3.jpg',
+            rules: '',
+            keterangan: 'putri',
+            class: 2,
+            file: 'gambarSmp'
+        },
+        {
+            title: 'Mewarnai',
+            img: 'img_sd/3.jpg',
+            rules: '',
+            keterangan: 'putri',
+            class: 2,
+            file: 'gambarSmp'
+        },
+        {
+            title: 'Story telling',
+            img: 'img_sd/3.jpg',
+            rules: '',
+            keterangan: 'putri',
+            class: 2,
+            file: 'gambarSmp'
+        }
     ],
     gambarSma: [
         {
@@ -188,6 +348,38 @@ const putri = {
         keterangan: "Putri",
         class: 5,
         file: "gambarSma",
+        },
+        {
+            title: 'Tennis meja',
+            img: 'img_sd/3.jpg',
+            rules: '',
+            keterangan: 'putri',
+            class: 2,
+            file: 'gambarSma'
+        },
+        {
+            title: 'Badminton',
+            img: 'img_sd/3.jpg',
+            rules: '',
+            keterangan: 'putri',
+            class: 2,
+            file: 'gambarSma'
+        },
+        {
+            title: 'Mewarnai',
+            img: 'img_sd/3.jpg',
+            rules: '',
+            keterangan: 'putri',
+            class: 2,
+            file: 'gambarSma'
+        },
+        {
+            title: 'Story telling',
+            img: 'img_sd/3.jpg',
+            rules: '',
+            keterangan: 'putri',
+            class: 2,
+            file: 'gambarSma'
         }
     ],
 };
@@ -198,12 +390,21 @@ const section = document.querySelector('.competition');
 const urlParams = new URLSearchParams(window.location.search);
 const compid = urlParams.get("gender");
 
+
+// button competion
+const buttonSmp = document.querySelector('.smp');
+console.log(buttonSmp);
+
+
 if (compid == 'putra') {
     tampilkanCards(putra)
     tampilkanCards2(putra.gambarSmp)
+    buttonSmp.classList.add('firstsee');
+    
 } else {
     tampilkanCards(putri)
     tampilkanCards2(putri.gambarSmp)
+    buttonSmp.classList.add('firstsee');
 }
     
 function tampilkanCards(gender) {
@@ -211,6 +412,7 @@ function tampilkanCards(gender) {
     for (let i=0; i < grades.length; i++) {
         grades[i].addEventListener('click', (e) => {
             if (e.target.classList.contains('sd')) {
+                buttonSmp.classList.remove('firstsee')
                 grades[1].classList.remove('kontol')
                 grades[2].classList.remove('kontol')
                 e.target.classList.add('kontol');
@@ -220,6 +422,7 @@ function tampilkanCards(gender) {
                 }else {section.style.height = ''}
             }
             if (e.target.classList.contains('smp')) {
+                buttonSmp.classList.remove('firstsee')
                 grades[0].classList.remove('kontol')
                 grades[2].classList.remove('kontol')
                 e.target.classList.add('kontol');
@@ -229,6 +432,7 @@ function tampilkanCards(gender) {
                 }else {section.style.height = ''}
             }
             if (e.target.classList.contains('sma')) {
+                buttonSmp.classList.remove('firstsee')
                 grades[0].classList.remove('kontol')
                 grades[1].classList.remove('kontol')
                 e.target.classList.add('kontol');

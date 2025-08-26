@@ -8,6 +8,14 @@
     opacity: 0;
 }
 
+button.grade.firstsee {
+    transform: scale(1.1);
+    transition: all .5s ease;
+    background-color: #CEAA00;
+    box-shadow: #CEAA00 0 0 20px 0;
+    color: black;
+}
+
 @media screen and (min-width : 1024px) {    
     .back {
         position: absolute;
