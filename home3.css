@@ -243,7 +243,7 @@
             2px  0px 0 white,
             0px -2px 0 white,
             -2px  0px 0 white;
-            font-size: 38px;
+            font-size: 28px;
             text-align: center;
             margin-top: 10px;
             animation: home_h2 2s;
@@ -313,7 +313,7 @@
         }
     
         main .about .container {
-            width: 647px;
+            width: 400px;
             height: 700px;
             /* padding: 10px; */
             box-sizing: border-box;
@@ -340,7 +340,7 @@
             -4px -2px 0 #333333,
             -4px -2px 0 #333333;
             font-family: indonesia;
-            font-size: 45px;
+            font-size: 25px;
             text-transform: capitalize;
         }
     
@@ -476,7 +476,7 @@
         .nusantara h2 {
             font-family: indonesia;
             color: #7C512B;
-            font-size: 50px;
+            font-size: 25px;
             margin-top: -130px;
             margin-bottom: 120px;
             text-shadow:            -4px -2px 0 #333333,            -4px -2px 0 #333333;
@@ -551,7 +551,7 @@
             -4px -2px 0 #333333,
             -4px -2px 0 #333333;
             text-align: center;
-            font-size: 35px;
+            font-size: 25px;
             font-weight: bold;
         }
     
