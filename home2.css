@@ -209,7 +209,7 @@
     main .home div h2 {
         font-family: indonesia;
         color: #1995FD;
-        font-size: 84px;
+        font-size: 44px;
         margin: auto;
         margin-top: 160px;
         animation: home_h2 2s;
@@ -275,7 +275,7 @@
     /* bagian about */
     main .about {
         border-top: 23px solid #181145;
-        background-image: url(img/about2_bg.jpg);
+        background-image: url(img/bg_about.png);
         /* background-position: 0px -370px; */
         background-repeat: no-repeat;
         background-size: cover;
@@ -286,19 +286,15 @@
     }
 
     main .about .container {
-        width: 1150px;
+        width: 95%;
         height: 500px;
         padding: 10px;
         border-radius: 10px;
         display: grid;
         grid-template-areas: "explain video";
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1.5fr 1.5fr;
         grid-gap: 10px;
         position: absolute;
-        background: rgba(0, 0, 0, 0.3);
-        backdrop-filter: saturate(100%) blur(6px);
-        overflow: hidden;
-        box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.8);
     }
 
     .about .explain {
@@ -311,18 +307,12 @@
     }
 
     .about .explain h1 {
-        color: #1995FD;
-        text-shadow:
-            -1px -1px 0 white,
-            1px -1px 0 white,
-            -1px  1px 0 white,
-            1px  1px 0 white,
-            0px  2px 0 white,
-            2px  0px 0 white,
-            0px -2px 0 white,
-            -2px  0px 0 white;
+        color: #7c512b;
+            text-shadow:
+            -4px -2px 0 #333333,
+            -4px -2px 0 #333333;
         font-family: indonesia;
-        font-size: 40px;
+        font-size: 29px;
         text-transform: capitalize;
         width: 200px;
     }
@@ -331,14 +321,6 @@
         transform: translateX(-90px);
         transition: all .3s ease;
         opacity: 0.2;
-        -webkit-transform: translateX(-90px);
-        -moz-transform: translateX(-90px);
-        -ms-transform: translateX(-90px);
-        -o-transform: translateX(-90px);
-        -webkit-transition: all .3s ease;
-        -moz-transition: all .3s ease;
-        -ms-transition: all .3s ease;
-        -o-transition: all .3s ease;
 }
 
     .about .explain .h1.active {
@@ -351,24 +333,10 @@
     }
 
     .about .explain p {
-        color: white;
-        /* color: cyan; */
+        color: #7c512b;
         font-size: 15px;
-        /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+        font-family: nusantara;
         text-transform: capitalize;
-    }
-
-    .about .explain p span {
-        color: cyan;
-    }
-
-    .about .explain p span.penting {
-        color: gold;
-        background-color: var(--darkcolor);
-    }
-
-    .about .explain p span.penting2 {
-        color: gold;
     }
 
     .about .explain div.p {
@@ -433,6 +401,75 @@
         -o-transform: translateX(0px);
     }
 
+    .about .video img {
+            position: absolute;
+            width: 340px;
+            height: 240px;
+            /* top: -10px; */
+            transform: translateX(90px);
+            transition: all .3s ease;
+            opacity: 0.5;
+        }
+
+        .about .video img.active {
+            transform: translateX(0px);
+            opacity: 1;
+            -webkit-transform: translateX(0px);
+            -moz-transform: translateX(0px);
+            -ms-transform: translateX(0px);
+            -o-transform: translateX(0px);
+        }
+
+
+
+    
+
+
+    /* bagian nusantara */
+        main section.nusantara {
+            background-image: url(img/bg_nusantara.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .nusantara h2 {
+            font-family: indonesia;
+            color: #7C512B;
+            font-size: 30px;
+            margin-top: -30px;
+            margin-bottom: 120px;
+            text-shadow:            -4px -2px 0 #333333,            -4px -2px 0 #333333;
+            transition: .3s ease;
+            transform: translateY(-80px);
+            opacity: 0.5;
+}
+
+        .nusantara h2.active {
+            transition: .3s ease;
+            transform: translateY(0px);
+            opacity: 1;
+}
+
+        .nusantara img {
+            width: 85%;
+            margin-bottom: -90px;
+            transition: .3s ease;
+            transform: translateY(80px);
+            opacity: 0.5;
+}
+    
+        .nusantara img.active {
+            opacity: 1;
+            transform: translateY(0px);
+            transition: .3s ease;
+}
+
+
 
 
 
@@ -442,12 +479,11 @@
         width: 100%;
         height: 370px;
         box-sizing: border-box;
-        background-image: url(img/sponsor_bg.jpg);
+        background-image: url(img/bg_sponsor.png);
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
         flex-direction: column;
-        border: black 2px solid;
     }
 
     main section .sponsorcontent {
@@ -472,16 +508,10 @@
     }
 
     main section .sponsortitle h1 {
-        color: #1995FD;
+        color: #7c512b;
             text-shadow:
-            -1px -1px 0 white,
-            1px -1px 0 white,
-            -1px  1px 0 white,
-            1px  1px 0 white,
-            0px  2px 0 white,
-            2px  0px 0 white,
-            0px -2px 0 white,
-            -2px  0px 0 white;
+            -4px -2px 0 #333333,
+            -4px -2px 0 #333333;
         text-align: center;
         font-size: 45px;
     }
@@ -517,7 +547,7 @@
         grid-template-areas: "contact media map";
         grid-template-columns: 1fr 1fr 1fr;
         overflow: hidden;
-        background-color: rgb(29, 186, 214);
+        background-color: #1474AF;
     }
 
     .contact h4,
@@ -531,17 +561,9 @@
         padding: 20px 0 0 0;
         margin-left: 20px;
         transform: translateX(-100px);
-        transition: all 2s ease;
+        transition: all .3s ease;
         opacity: 0;
-        -webkit-transform: translateX(-100px);
-        -moz-transform: translateX(-100px);
-        -ms-transform: translateX(-100px);
-        -o-transform: translateX(-100px);
-        -webkit-transition: all 2s ease;
-        -moz-transition: all 2s ease;
-        -ms-transition: all 2s ease;
-        -o-transition: all 2s ease;
-    }
+}
 
     .ourContact div {
         width: 350px;
@@ -574,17 +596,9 @@
         box-sizing: border-box;
         padding: 20px 0 0 0;
         transform: translateX(100px);
-        transition: all 2s ease;
+        transition: all .3s ease;
         opacity: 0;
-        -webkit-transform: translateX(100px);
-        -moz-transform: translateX(100px);
-        -ms-transform: translateX(100px);
-        -o-transform: translateX(100px);
-        -webkit-transition: all 2s ease;
-        -moz-transition: all 2s ease;
-        -ms-transition: all 2s ease;
-        -o-transition: all 2s ease;
-    }
+}
 
     .ourMap div {
         justify-items: end;
@@ -603,17 +617,9 @@
         justify-content: center;
         align-items: center;
         transform: translateY(100px);
-        transition: all 2s ease;
+        transition: all .3s ease;
         opacity: 0;
-        -webkit-transform: translateY(100px);
-        -moz-transform: translateY(100px);
-        -ms-transform: translateY(100px);
-        -o-transform: translateY(100px);
-        -webkit-transition: all 2s ease;
-        -moz-transition: all 2s ease;
-        -ms-transition: all 2s ease;
-        -o-transition: all 2s ease;
-    }
+}
 
     .ourMedia .igMedia {
         width: 40px;
@@ -668,30 +674,24 @@ main section.competition {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    background-image: url(img/competition_bg.jpg);
+    background-image: url(img/bg_kompetisi.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .competition h1 strong {
-    color: #ffd607;
-    text-shadow:
-            -1px -1px 0 white,
-            1px -1px 0 white,
-            -1px  1px 0 white,
-            1px  1px 0 white,
-            0px  2px 0 white,
-            2px  0px 0 white,
-            0px -2px 0 white,
-            -2px  0px 0 white;
+    color: #7c512b;
+            text-shadow:
+            -4px -2px 0 #333333,
+            -4px -2px 0 #333333;
     font-size: 40px;
     font-weight: bolder;
 }
 
 .competition h1 {
     transform: translateX(-100px);
-    transition: all 2s ease;
+    transition: all .3s ease;
     opacity: 0.5;
 }
 
@@ -724,7 +724,7 @@ main section.competition {
 
 .pilih_gender {
     transform: translateX(100px);
-    transition: all 2s ease;
+    transition: all .3s ease;
     opacity: 0.5;
 }
 
